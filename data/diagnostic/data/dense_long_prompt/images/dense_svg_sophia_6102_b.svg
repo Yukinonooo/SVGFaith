@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Traffic Light Housing - Dark gray rounded rectangle serving as the main body -->
+  <g id="housing">
+    <path fill="#544f55" d="M80.99 104.4H47.01c-2.33 0-4.21-1.88-4.21-4.21V27.81c0-2.33 1.88-4.21 4.21-4.21h33.98c2.33 0 4.21 1.88 4.21 4.21v72.38c0 2.33-1.88 4.21-4.21 4.21"/>
+  </g>
+  
+  <!-- Red Light - Top circular light indicating stop -->
+  <g id="red-light">
+    <path fill="#e3334f" d="M72.25 39.03c0 4.55-3.7 8.25-8.25 8.25-4.71 0-8.42-3.7-8.42-8.25 0-4.71 3.71-8.41 8.42-8.41 4.55 0 8.25 3.7 8.25 8.41"/>
+  </g>
+  
+  <!-- Yellow Light - Middle circular light indicating caution -->
+  <g id="yellow-light">
+    <path fill="#f9d403" d="M72.25 64c0 4.55-3.7 8.25-8.25 8.25-4.71 0-8.42-3.7-8.42-8.25 0-4.71 3.71-8.42 8.42-8.42 4.55 0 8.25 3.71 8.25 8.42"/>
+  </g>
+  
+  <!-- Green Light - Bottom circular light indicating go -->
+  <g id="green-light">
+    </g>
+  
+  <!-- Right Side Reflectors - Three trapezoidal shapes on the right side -->
+  <g id="right-reflectors">
+    <!-- Top right reflector -->
+    <path fill="#c4e0ff" d="M95.72 45.06H85.2V33.01h13.99z"/>
+    <!-- Middle right reflector -->
+    <path fill="#c4e0ff" d="M95.72 70.03H85.2V57.97h13.99z"/>
+    <!-- Bottom right reflector -->
+    <path fill="#c4e0ff" d="M95.72 94.99H85.2V82.94h13.99z"/>
+  </g>
+  
+  <!-- Left Side Reflectors - Three trapezoidal shapes on the left side -->
+  <g id="left-reflectors">
+    <!-- Top left reflector -->
+    <path fill="#c4e0ff" d="M32.28 45.06H42.8V33.01H28.81z"/>
+    <!-- Middle left reflector -->
+    <path fill="#c4e0ff" d="M32.28 70.03H42.8V57.97H28.81z"/>
+    <!-- Bottom left reflector -->
+    <path fill="#c4e0ff" d="M32.28 94.99H42.8V82.94H28.81z"/>
+  </g>
+
+</svg>

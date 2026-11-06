@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="white"/>
+  <rect x="30" y="225" width="324" height="30" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="4"/>
+  <path d="M 40,240 L 344,240" fill="none" stroke="#bdc3c7" stroke-width="2"/>
+  
+  <g id="croissant">
+    <path d="M 70,225 C 70,170 110,130 145,130 C 180,130 220,170 220,225 C 190,250 160,230 145,230 C 130,230 100,250 70,225 Z" fill="#a0522d"/>
+    <path d="M 90,155 Q 145,135 200,155" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 95,175 Q 110,195 105,225" fill="none" stroke="#000000" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 125,145 Q 145,180 145,225" fill="none" stroke="#000000" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 165,145 Q 155,180 165,220" fill="none" stroke="#000000" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 195,175 Q 185,195 190,225" fill="none" stroke="#000000" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g id="macaron">
+    <path d="M 235,180 C 235,140 335,140 335,180 Z" fill="#00bcd4"/>
+    <rect x="233" y="180" width="104" height="8" rx="3" fill="#00bcd4"/>
+    <rect x="238" y="188" width="94" height="12" fill="#fff9e6"/>
+    <rect x="233" y="200" width="104" height="8" rx="3" fill="#00bcd4"/>
+    <path d="M 235,208 C 235,240 335,240 335,208 Z" fill="#00bcd4"/>
+    <path d="M 245,155 Q 285,145 325,155" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

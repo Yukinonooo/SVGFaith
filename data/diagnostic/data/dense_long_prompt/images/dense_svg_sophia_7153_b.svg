@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Left Tower - Gray cylindrical tower structure on the left side -->
+  <g id="left-tower">
+    <!-- Tower main body segments -->
+    <path fill="#838f9b" d="M20 48l-.8 1c.5.88.8 1.9.8 3v16l-.8 1c.5.88.8 1.9.8 3v16l-9.6 12H28V48z"/>
+    
+    <!-- Tower top section (32-54) -->
+    <path fill="#656d78" d="M19.2 49c-1.04-1.8-2.98-3-5.2-3h-2c-4.42 0-8 3.58-8 8V34c0-4.42 3.58-8 8-8h2c3.32 0 6 2.68 6 6v16z"/>
+    
+    <!-- Tower middle section (46-74) -->
+    <path fill="#656d78" d="M19.2 69c-1.04-1.8-2.98-3-5.2-3h-2c-4.42 0-8 3.58-8 8V54c0-4.42 3.58-8 8-8h2c2.22 0 4.16 1.2 5.2 3 .5.88.8 1.9.8 3v16z"/>
+    
+    <!-- Tower bottom section (66-104) -->
+    <path fill="#656d78" d="M20 80v8l-9.6 12-5.34 6.68C4.38 105.98 4 105.04 4 104V74c0-4.42 3.58-8 8-8h2c2.22 0 4.16 1.2 5.2 3 .5.88.8 1.9.8 3z"/>
+  </g>
+
+  <!-- Right Tower - Gray cylindrical tower structure on the right side -->
+  <g id="right-tower">
+    <!-- Tower main body segments -->
+    <path fill="#838f9b" d="M108 88V72c0-1.1.3-2.12.8-3l-.8-1V52c0-1.1.3-2.12.8-3l-.8-1h-8v52h17.6z"/>
+    
+    <!-- Tower top section (32-54) -->
+    <path fill="#656d78" d="M114 46c-2.22 0-4.16 1.2-5.2 3l-.8-1V32c0-3.32 2.68-6 6-6h2c4.42 0 8 3.58 8 8v20c0-4.42-3.58-8-8-8z"/>
+    
+    <!-- Tower middle section (46-74) -->
+    <path fill="#656d78" d="M114 66c-2.22 0-4.16 1.2-5.2 3l-.8-1V52c0-1.1.3-2.12.8-3 1.04-1.8 2.98-3 5.2-3h2c4.42 0 8 3.58 8 8v20c0-4.42-3.58-8-8-8z"/>
+    
+    <!-- Tower bottom section (66-104) -->
+    <path fill="#656d78" d="M124 74v30c0 1.04-.38 1.98-1.06 2.68L117.6 100 108 88V72c0-1.1.3-2.12.8-3 1.04-1.8 2.98-3 5.2-3h2c4.42 0 8 3.58 8 8"/>
+  </g>
+
+  <!-- Tower Bases - Dark gray base elements at the bottom of both towers -->
+  <g id="tower-bases">
+    <!-- Left tower base -->
+    <path fill="#434a54" d="M5.06 106.68 10.4 100H28v8H8c-1.16 0-2.22-.5-2.94-1.32"/>
+    
+    <!-- Right tower base -->
+    <path fill="#434a54" d="m117.6 100 5.34 6.68c-.72.82-1.78 1.32-2.94 1.32h-20v-8z"/>
+  </g>
+
+  <!-- Central Archway Top - Upper portion of the rounded entrance arch -->
+  <g id="archway-top">
+    <!-- Archway top rounded section -->
+    <path fill="#656d78" d="M76 16v16H52V16c0-6.62 5.38-12 12-12 3.32 0 6.32 1.34 8.48 3.52C74.66 9.68 76 12.68 76 16"/>
+  </g>
+
+  <!-- Central Archway Bottom - Lower portion and completion of the entrance arch -->
+  <g id="archway-bottom">
+    <!-- Archway bottom rounded section -->
+    <path fill="#656d78" d="M76 116v8H52v-20c0-6.62 5.38-12 12-12 3.32 0 6.32 1.34 8.48 3.52C74.66 97.68 76 100.68 76 104z"/>
+  </g>
+
+  <!-- Tower Caps - Brown rectangular caps on top of both towers -->
+  <g id="tower-caps">
+    <!-- Left tower cap -->
+    <path fill="#0ea5e9" d="M52 116v8H30c-1.1 0-2-.9-2-2v-6z"/>
+    
+    <!-- Right tower cap -->
+    <path fill="#0ea5e9" d="M100 122c0 1.1-.9 2-2 2H76v-8h24z"/>
+  </g>
+
+  <!-- Main Building Body - Central tan/beige rectangular facade -->
+  <g id="main-building">
+    <!-- Central building facade with archway cutout -->
+    <path fill="#d3a06c" d="M76 104c0-3.32-1.34-6.32-3.52-8.48A11.89 11.89 0 0 0 64 92c-6.62 0-12 5.38-12 12v12H28V34c0-1.1.9-2 2-2h68c1.1 0 2 .9 2 2v82H76z"/>
+  </g>
+
+  <!-- Windows - Six yellow square windows arranged in two columns of three -->
+  <g id="windows">
+    <!-- Right column of windows -->
+    <path fill="#fcd770" d="M76 88h16v12H76z"/> <!-- Bottom right window -->
+    <path fill="#fcd770" d="M76 68h16v12H76z"/> <!-- Middle right window -->
+    <path fill="#fcd770" d="M76 48h16v12H76z"/> <!-- Top right window -->
+    
+    <!-- Left column of windows -->
+    <path fill="#fcd770" d="M36 48h16v12H36z"/> <!-- Top left window -->
+    <path fill="#fcd770" d="M36 68h16v12H36z"/> <!-- Middle left window -->
+    <path fill="#fcd770" d="M36 88h16v12H36z"/> <!-- Bottom left window -->
+  </g>
+
+</svg>

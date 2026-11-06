@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Back Left Bowling Pin - White fill base shape -->
+  <g id="back-left-pin-base">
+    <!-- Pin body with characteristic bowling pin shape -->
+    <path fill="#fff" d="M106.75 94.81H85.13l-4.64-11.58a44.76 44.76 0 0 1-.02-33.31 44.7 44.7 0 0 0 2.59-24.02l-.88-5.28c-1.42-8.5 5.14-16.24 13.76-16.24 8.63 0 15.19 7.74 13.77 16.24l-.89 5.28a44.8 44.8 0 0 0 2.6 24.02 44.76 44.76 0 0 1-.02 33.31z"/>
+    <!-- Horizontal stripe detail on pin neck -->
+    <path fill="#fff" d="M94.57 34.39h13.69"/>
+  </g>
+  
+  <!-- Back Left Bowling Pin - Dark outline and details -->
+  <g id="back-left-pin-outline">
+    <!-- Main outline path with complex curves defining pin shape and stripe -->
+    <path fill="#3e4d6c" d="M115.48 48.29a40.4 40.4 0 0 1-2.34-21.67c1.2-7.22 1.94-14.06-3.21-20.14A18.29 18.29 0 0 0 95.94 0c-4.38 0-8.62 1.57-11.93 4.41l5.7 6.64c1.76-1.5 3.91-2.3 6.23-2.3 5.83 0 10.41 5.39 9.45 11.14-.56 3.36-1.22 6.72-1.44 10.12h-9.38v8.76h9.57c.49 4.36 1.57 8.66 3.21 12.77 3.88 9.7 3.88 20.37-.01 30.06l-3.54 8.83h-5.57v8.76h8.53c1.78 0 3.39-1.09 4.06-2.75l4.64-11.58c4.73-11.79 4.74-24.78.02-36.57"/>
+  </g>
+  
+  <!-- Back Right Bowling Pin - White fill base shape -->
+  <g id="back-right-pin-base">
+    <!-- Pin body with characteristic bowling pin shape -->
+    <path fill="#fff" d="M58.32 94.81H36.7l-4.65-11.58a44.76 44.76 0 0 1-.02-33.31 44.8 44.8 0 0 0 2.6-24.02l-.88-5.28c-1.43-8.5 5.13-16.24 13.76-16.24 8.62 0 15.18 7.74 13.76 16.24l-.88 5.28a44.7 44.7 0 0 0 2.59 24.02 44.8 44.8 0 0 1-.01 33.31z"/>
+    <!-- Horizontal stripe detail on pin neck -->
+    <path fill="#fff" d="M35.2 34.39h10.94"/>
+  </g>
+  
+  <!-- Back Right Bowling Pin - Dark outline and details -->
+  <g id="back-right-pin-outline">
+    <!-- Main outline path with complex curves defining pin shape and stripe -->
+    <path fill="#3e4d6c" d="M47.51 0a18.3 18.3 0 0 0-13.99 6.48c-5.11 6.04-4.41 12.96-3.21 20.14 1.22 7.3.41 14.8-2.34 21.67-4.72 11.79-4.71 24.78.02 36.57l4.65 11.58a4.37 4.37 0 0 0 4.06 2.75h9.07v-8.76h-6.11l-3.55-8.83c-3.89-9.69-3.89-20.36-.01-30.06 1.64-4.11 2.72-8.41 3.21-12.77h6.83v-8.76h-6.63c-.23-3.4-.89-6.76-1.45-10.12-.96-5.75 3.62-11.14 9.45-11.14 2.81 0 5.47 1.23 7.3 3.37l6.66-5.67C57.98 2.35 52.89 0 47.51 0"/>
+  </g>
+  
+  <!-- Front Center Bowling Pin - White fill base shape -->
+  <g id="front-pin-base">
+    <!-- Pin body positioned in front, overlapping with bowling ball -->
+    <path fill="#fff" d="M81.26 106.42H59.64l-4.65-11.58a44.8 44.8 0 0 1-.01-33.32 44.8 44.8 0 0 0 2.59-24.02l-.88-5.28c-1.42-8.5 5.14-16.24 13.76-16.24s15.18 7.74 13.76 16.24l-.88 5.28c-1.35 8.1-.46 16.4 2.59 24.02a44.8 44.8 0 0 1-.01 33.32z"/>
+  </g>
+  
+  <!-- Front Center Bowling Pin - Light gray shading for depth -->
+  <g id="front-pin-shading">
+    <!-- Subtle shading on left side of pin to create dimensional effect -->
+    <path fill="#e6e7e8" d="M69.18 61.52a44.8 44.8 0 0 0 2.59-24.02l-.88-5.28c-.99-5.93 1.9-11.48 6.66-14.3a13.83 13.83 0 0 0-7.1-1.94c-8.62 0-15.18 7.74-13.76 16.24l.88 5.28c1.35 8.1.46 16.4-2.59 24.02a44.8 44.8 0 0 0 .01 33.32l4.65 11.58h14.2l-4.65-11.58a44.8 44.8 0 0 1-.01-33.32"/>
+  </g>
+  
+  <!-- Front Center Bowling Pin - Horizontal stripe detail -->
+  <g id="front-pin-stripe">
+    <!-- White stripe around pin neck -->
+    <path fill="#fff" d="M58.14 46h24.62"/>
+  </g>
+  
+  <!-- Front Center Bowling Pin - Dark outline and details -->
+  <g id="front-pin-outline">
+    <!-- Main outline path with complex curves defining pin shape, stripe, and base -->
+    <path fill="#3e4d6c" d="M89.99 59.9a40.3 40.3 0 0 1-2.34-21.67c1.2-7.22 1.94-14.06-3.21-20.14a18.3 18.3 0 0 0-13.99-6.48 18.3 18.3 0 0 0-13.99 6.48c-5.11 6.03-4.4 12.96-3.2 20.14 1.22 7.3.41 14.79-2.34 21.67-4.72 11.79-4.72 24.78.01 36.57l4.65 11.58a4.38 4.38 0 0 0 4.06 2.74h21.62c1.79 0 3.4-1.09 4.06-2.74l4.65-11.58c4.73-11.79 4.74-24.78.02-36.57M63.14 23.75a9.54 9.54 0 0 1 7.31-3.39c5.83 0 10.41 5.39 9.45 11.14-.56 3.36-1.22 6.72-1.45 10.12h-16c-.39-5.8-3.58-12.83.69-17.87m18.71 69.46-3.55 8.83H62.6l-3.55-8.83c-3.88-9.69-3.89-20.37-.01-30.06 1.65-4.12 2.72-8.42 3.21-12.78h16.4c.49 4.36 1.56 8.66 3.21 12.78 3.88 9.69 3.88 20.37-.01 30.06"/>
+  </g>
+  
+  <!-- Bowling Ball - Solid black circle -->
+  <g id="bowling-ball">
+    <!-- Main ball body positioned in lower left, overlapping front pin -->
+    <path d="M63.23 100.89A27.12 27.11 0 0 1 36.11 128a27.12 27.11 0 0 1-27.13-27.11 27.12 27.11 0 0 1 27.13-27.1 27.12 27.11 0 0 1 27.12 27.1"/>
+  </g>
+  
+  <!-- Bowling Ball Finger Holes - Three circular holes -->
+  <g id="bowling-ball-holes">
+    <!-- Left finger hole -->
+    <path d="M31.86 91.27a4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.25-4.25 4.25 4.25 0 0 1 4.25-4.25 4.25 4.25 0 0 1 4.25 4.25"/>
+    <!-- Right finger hole -->
+    <path d="M48.92 91.27a4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.24-4.25 4.25 4.25 0 0 1 4.24-4.25 4.25 4.25 0 0 1 4.25 4.25"/>
+    <!-- Thumb hole (bottom center) -->
+    <path d="M40.43 102.59a4.25 4.25 0 0 1-4.25 4.25 4.25 4.25 0 0 1-4.25-4.25 4.25 4.25 0 0 1 4.25-4.24 4.25 4.25 0 0 1 4.25 4.24"/>
+  </g>
+  
+</svg>

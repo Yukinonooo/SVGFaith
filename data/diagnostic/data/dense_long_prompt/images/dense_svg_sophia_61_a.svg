@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Baseball Bat Main Body - Tan colored elongated shape forming the primary bat structure -->
+  <!-- Extends diagonally from upper right to lower left at approximately 45 degrees -->
+  <g id="bat-main-body">
+    <path fill="#d5a889" d="M120.17 23.82c-9.58 10.79-35.76 33.46-55.61 50.3-8.24 6.99-15.39 12.98-19.81 16.7-2.37 1.99-4.3 3.77-6.49 5.95l-18.29 18.29-7.05-7.05 18.26-18.27c2.21-2.21 4.01-4.17 6.02-6.56 3.68-4.39 9.56-11.42 16.41-19.53 17-20.09 40.03-46.76 50.55-55.85 12.54-10.83 26.83 3.83 16.01 16.02"/>
+  </g>
+  
+  <!-- Pink Grip Section - Coral/pink colored grip area near the bat handle -->
+  <!-- Provides visual distinction for the handle grip zone -->
+  <g id="bat-grip">
+    <path fill="#f76c82" d="M50.32 86.14c-2.14 1.8-4.03 3.38-5.57 4.68-2.37 1.99-4.3 3.77-6.49 5.95l-18.29 18.29-7.05-7.05 18.26-18.27c2.21-2.21 4.01-4.17 6.02-6.56 1.29-1.54 2.85-3.41 4.63-5.53z"/>
+  </g>
+  
+  <!-- Bat Handle End Cap - Rounded tan cap at the end of the bat handle -->
+  <!-- Creates a finished look at the handle terminus -->
+  <g id="bat-handle-cap">
+    <path fill="#d5a889" d="M5.59 103.61c2.12-2.12 5.59-2.12 7.71 0l11.07 11.07c2.12 2.12 2.12 5.59 0 7.71s-5.59 2.12-7.71 0L5.59 111.32c-2.12-2.12-2.12-5.59 0-7.71"/>
+  </g>
+  
+  <!-- Baseball - Light gray circular shape representing the baseball -->
+  <!-- Positioned in the lower right area, separate from the bat -->
+  <g id="baseball">
+    <path fill="#e4e8eb" d="M123.47 97.26c0 14.43-11.76 26.18-26.19 26.18-14.97 0-26.72-11.75-26.72-26.18 0-14.97 11.75-26.73 26.72-26.73 14.43 0 26.19 11.76 26.19 26.73"/>
+  </g>
+  
+</svg>

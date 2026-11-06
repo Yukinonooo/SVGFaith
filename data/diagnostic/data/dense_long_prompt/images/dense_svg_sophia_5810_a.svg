@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Main Tube Body - Large black trapezoidal container section -->
+  <g id="main-body">
+    <path d="M82.79 36.2 64 28.71 45.21 36.2l-3.99 25.61L64 72.1l22.78-10.29z"/>
+  </g>
+  
+  <!-- Main Tube Body Shadow - Darker left side for depth -->
+  <g id="main-body-shadow">
+    <path d="m48.72 61.81 3.99-25.61 15.04-6L64 28.71 45.21 36.2l-3.99 25.61L64 72.1l3.75-1.7z"/>
+  </g>
+  
+  <!-- Shoulder Section - White/light gray rounded transition area -->
+  <g id="shoulder">
+    <path fill="#EFEDEE" d="M82.79 36.2H45.21l1.2-7.7c.5-4 3.9-7 7.93-7L64 14.64l9.66 6.86c4.03 0 7.43 3 7.93 7z"/>
+  </g>
+  
+  <!-- Shoulder Section Shadow - Darker left side for depth -->
+  <g id="shoulder-shadow">
+    <path fill="#D4D2D3" d="m61.84 21.5 5.91-4.2L64 14.64l-9.66 6.86c-4.03 0-7.43 3-7.94 7l-1.19 7.7h7.5l1.19-7.7c.51-4 3.91-7 7.94-7"/>
+  </g>
+  
+  <!-- Lower Body Section - Black trapezoid extending to bottom -->
+  <g id="lower-body">
+    <path d="M86.78 61.81H41.22L33 114.65l31 5.74 31-5.74z"/>
+  </g>
+  
+  <!-- Lower Body Shadow - Darker left side for depth -->
+  <g id="lower-body-shadow">
+    <path d="m40.5 114.65 8.22-52.84h-7.5L33 114.65l31 5.74 3.75-.69z"/>
+  </g>
+  
+  <!-- Shield/Badge Detail - Dark gray decorative element on body -->
+  <g id="shield-detail">
+    <path fill="#3A484A" d="M59.52 87.27v3.49c0 2.47 2 4.48 4.48 4.48s4.48-2.01 4.48-4.48v-3.49z"/>
+  </g>
+  
+  <!-- Neck Section - Black cylindrical connector -->
+  <g id="neck">
+    <path d="M54.34 13.67v7.83h19.31v-7.83L64 7.77z"/>
+  </g>
+  
+  <!-- Neck Section Shadow - Darker left side for depth -->
+  <g id="neck-shadow">
+    <path d="M67.75 10.06 64 7.77l-9.66 5.9v7.83h7.5v-7.83z"/>
+  </g>
+  
+  <!-- Cap/Top Section - Dark gray rounded screw cap -->
+  <g id="cap">
+    <path fill="#455058" d="M73.65 1.88h-19.3c-1.49 0-2.69 1.2-2.69 2.68v6.42c0 1.49 1.2 2.69 2.69 2.69h19.3c1.49 0 2.69-1.2 2.69-2.69V4.56c0-1.48-1.2-2.68-2.69-2.68"/>
+  </g>
+  
+  <!-- Cap Shadow - Darker left side for depth -->
+  <g id="cap-shadow">
+    <path fill="#3C464D" d="M59.16 10.98V4.56c0-1.48 1.2-2.68 2.68-2.68h-7.5a2.68 2.68 0 0 0-2.68 2.68v6.42c0 1.49 1.2 2.69 2.68 2.69h7.5c-1.48 0-2.68-1.2-2.68-2.69"/>
+  </g>
+  
+  <!-- Bottom Rim/Base - Light gray bottom edge of tube -->
+  <g id="bottom-rim">
+    <path fill="#D4D2D3" d="m99.13 122.95-1.35-6.23a2.63 2.63 0 0 0-2.56-2.07H32.78c-1.23 0-2.29.86-2.56 2.07l-1.35 6.23c-.36 1.63.89 3.18 2.56 3.18h65.14c1.67 0 2.92-1.55 2.56-3.18"/>
+  </g>
+  
+  <!-- Bottom Rim Shadow - Darker left side for depth -->
+  <g id="bottom-rim-shadow">
+    <path fill="#BAB8B9" d="m36.37 122.95 1.35-6.23a2.62 2.62 0 0 1 2.56-2.07h-7.5c-1.23 0-2.29.86-2.56 2.07l-1.35 6.23c-.36 1.63.89 3.18 2.56 3.18h7.5c-1.67 0-2.92-1.55-2.56-3.18"/>
+  </g>
+
+</svg>

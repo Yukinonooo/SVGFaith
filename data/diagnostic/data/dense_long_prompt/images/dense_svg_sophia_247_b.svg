@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Background - Large filled circle base -->
+  <g id="background">
+    <!-- Main circle background in light #eab308, radius ~61.87 from center (64, 64) -->
+    <path fill="#E6E7E8" d="M64 2.13C29.83 2.13 2.13 29.83 2.13 64s27.7 61.87 61.87 61.87 61.87-27.7 61.87-61.87S98.17 2.13 64 2.13M27.73 74.67c-5.89 0-10.66-4.78-10.66-10.67s4.77-10.67 10.66-10.67S38.4 58.11 38.4 64s-4.78 10.67-10.67 10.67m36.27 0c-5.89 0-10.67-4.78-10.67-10.67S58.11 53.33 64 53.33 74.67 58.11 74.67 64 69.89 74.67 64 74.67M110.93 64c0 5.89-4.77 10.67-10.66 10.67S89.6 69.89 89.6 64s4.78-10.67 10.67-10.67 10.66 4.78 10.66 10.67"/>
+  </g>
+  
+  <!-- Outer circle border - Dark #eab308 stroke outline for main container -->
+  <g id="outer-border">
+    <!-- Outer circle with 64px radius, 4.27px stroke width -->
+    <path fill="#eab308" d="M64 128C28.65 128 0 99.35 0 64S28.65 0 64 0s64 28.65 64 64c-.04 35.33-28.67 63.96-64 64M64 4.27C31.01 4.27 4.27 31.01 4.27 64S31.01 123.73 64 123.73 123.73 96.99 123.73 64C123.7 31.03 96.97 4.3 64 4.27"/>
+  </g>
+  
+  <!-- Left dot filled - Light #eab308 circle on the left (already included in background path) -->
+  <!-- This is rendered as part of the background compound path above -->
+  
+  <!-- Center dot filled - Light #eab308 circle in the center (already included in background path) -->
+  <!-- This is rendered as part of the background compound path above -->
+  
+  <!-- Right dot filled - Light #eab308 circle on the right (already included in background path) -->
+  <!-- This is rendered as part of the background compound path above -->
+  
+  <!-- Center dot border - Dark #eab308 outline for center circle -->
+  <g id="center-dot-border">
+    <!-- Center circle at (64, 64) with 12.8px radius, creating a ring with inner radius 8.53px -->
+    <path fill="#eab308" d="M64 76.8c-7.07 0-12.8-5.73-12.8-12.8S56.93 51.2 64 51.2 76.8 56.93 76.8 64c-.01 7.07-5.73 12.79-12.8 12.8m0-21.33c-4.71 0-8.53 3.82-8.53 8.53s3.82 8.53 8.53 8.53 8.53-3.82 8.53-8.53-3.82-8.53-8.53-8.53"/>
+  </g>
+  
+  <!-- Right dot border - Dark #eab308 outline for right circle -->
+  <g id="right-dot-border">
+    <!-- Right circle at (100.27, 64) with 12.8px radius, creating a ring with inner radius 8.53px -->
+    <path fill="#eab308" d="M100.27 76.8c-7.07 0-12.8-5.73-12.8-12.8s5.73-12.8 12.8-12.8 12.8 5.73 12.8 12.8c-.01 7.07-5.74 12.79-12.8 12.8m0-21.33c-4.72 0-8.54 3.82-8.54 8.53s3.82 8.53 8.54 8.53c4.71 0 8.53-3.82 8.53-8.53s-3.82-8.53-8.53-8.53"/>
+  </g>
+  
+  <!-- Left dot border - Dark #eab308 outline for left circle -->
+  <g id="left-dot-border">
+    <!-- Left circle at (27.73, 64) with 12.8px radius, creating a ring with inner radius 8.53px -->
+    <path fill="#eab308" d="M27.73 76.8c-7.07 0-12.8-5.73-12.8-12.8s5.73-12.8 12.8-12.8 12.8 5.73 12.8 12.8-5.73 12.79-12.8 12.8m0-21.33c-4.71 0-8.53 3.82-8.53 8.53s3.82 8.53 8.53 8.53c4.72 0 8.54-3.82 8.54-8.53s-3.82-8.53-8.54-8.53"/>
+  </g>
+  
+</svg>

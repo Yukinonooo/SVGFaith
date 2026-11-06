@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Planting Disc Side/Depth - Dark brown vertical edge providing 3D isometric depth to the disc -->
+  <g id="disc-side">
+    <path fill="#984C16" d="M111.04 95.71v16.02c0 7.49-21.06 13.56-47.04 13.56s-47.04-6.07-47.04-13.56V95.71z"/>
+  </g>
+  
+  <!-- Planting Disc Top Surface - Tan-colored horizontal ellipse forming the top of the planting disc -->
+  <g id="disc-top">
+    <path fill="#C8904D" d="M64 112.85c-25.98 0-47.04-7.68-47.04-17.14 0-9.47 21.06-17.14 47.04-17.14s47.04 7.67 47.04 17.14c0 9.46-21.06 17.14-47.04 17.14"/>
+  </g>
+  
+  <!-- Left Leaf - Lime-green teardrop-shaped leaf on the left side -->
+  <g id="leaf-left">
+    <!-- Main left leaf shape using Bézier curves for smooth teardrop form -->
+    <path fill="#A5CD27" d="M63.61 54.67q-2.22.24-4.5.24c-23.28 0-42.15-18.81-42.15-42.01 0-3.19.36-6.30 1.03-9.29 1.48-.16 2.99-.24 4.51-.24 23.28 0 42.15 18.81 42.15 42.01 0 3.19-.36 6.30-1.04 9.29"/>
+  </g>
+  
+  <!-- Left Leaf Shadow Detail - Darker green overlay providing depth and dimension to left leaf -->
+  <g id="leaf-left-shadow">
+    <!-- Shadow detail created by overlapping path with darker green -->
+    <path fill="#729800" d="M63.61 54.67c.68-2.99 1.04-6.10 1.04-9.29 0-5.28-.98-10.33-2.77-14.99a41.7 41.7 0 0 0-6.33 22.15c0 .74.02 1.49.06 2.23 1.15.09 2.32.14 3.50.14q2.28 0 4.5-.24"/>
+  </g>
+  
+  <!-- Right Leaf - Olive-green teardrop-shaped leaf on the right side, symmetrical to left -->
+  <g id="leaf-right">
+    <!-- Main right leaf shape, mirrored design with darker green fill -->
+    </g>
+  
+  <!-- Seed Hole - Small brown oval depression at center of disc indicating planting point -->
+  <g id="seed-hole">
+    <!-- Elliptical depression created using quadratic curves, centered on disc -->
+    <path fill="#984C16" d="M54.38 98.18c1.22-4.14 5.06-7.17 9.62-7.17s8.40 3.03 9.63 7.17c0 0-2.74 2.06-9.63 2.06s-9.62-2.06-9.62-2.06"/>
+  </g>
+  
+</svg>

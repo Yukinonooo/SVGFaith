@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Handle - Brown wooden handle with rounded rectangular cutout for grip -->
+  <g id="handle">
+    <!-- Main handle body with grip cutout -->
+    </g>
+  
+  <!-- Blade - Gray-blue saw blade with jagged teeth pattern along bottom edge -->
+  <g id="blade">
+    <!-- Blade body with zigzag teeth pattern created by multiple triangular points -->
+    <path fill="#8e9a9f" d="M109 65.94V50.36H42.58L36.41 76l2-1.08c.4-.22.86-.24 1.25-.09l5.09 1.75 4.72-3.13c.39-.27.87-.31 1.29-.18l5.7 1.73 5.18-3.24c.4-.25.88-.29 1.29-.15l5.94 1.69 5.33-3.27v-.01c.4-.24.87-.28 1.29-.13l5.92 1.68 5.2-3.24-.01-.01c.39-.24.86-.28 1.26-.15l5.69 1.72 4.75-3.15-.01-.01c.42-.28.93-.31 1.37-.15l5.14 1.77z"/>
+  </g>
+  
+</svg>

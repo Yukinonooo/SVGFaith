@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Star Shape - Five-pointed star centered on canvas -->
+  <g id="star">
+    <!-- 
+      Star path constructed from center point (64.76, 35.69) with five symmetrical points
+      Path moves through: top point → top-right outer → right point → bottom-right outer → 
+      bottom-left point → left outer → top-left point → back to start
+      Fill: Bright yellow (#f1dc30)
+    -->
+    <path 
+      fill="#f1dc30" 
+      d="m64.76 35.69 9.36 18.97 20.93 3.04-15.14 14.77 3.57 20.85-18.72-9.85-18.73 9.85 3.58-20.85L34.46 57.7l20.93-3.04z"/>
+  </g>
+  
+</svg>

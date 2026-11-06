@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Handle Shaft - Vertical white bar extending from rattle head to bottom -->
+  <g id="handle-shaft">
+    <!-- Main vertical handle extending downward from the rattle head -->
+    <path fill="#fff" d="M67.18 67.62v50.48c0 1.76-1.42 3.18-3.18 3.18a3.2 3.2 0 0 1-2.25-.93 3.2 3.2 0 0 1-.93-2.25V67.62c1.04.16 2.1.24 3.19.24 1.08 0 2.13-.08 3.17-.24"/>
+  </g>
+  
+  <!-- Rattle Head Main Body - Light blue oval/egg shaped head -->
+  <g id="rattle-head-body">
+    <!-- Egg-shaped rattle head with light blue fill -->
+    <path fill="#d7e9ff" d="M85.83 46.01c0 11.94-9.66 21.84-21.82 21.84-12.15 0-21.84-9.87-21.84-21.84 0-11.6 9.63-39.29 21.84-39.29 12.24 0 21.82 27.76 21.82 39.29"/>
+  </g>
+  
+  <!-- Horizontal Stripe - White band across the rattle head -->
+  <g id="horizontal-stripe">
+    <!-- White decorative stripe across the middle of the rattle head -->
+    <path fill="#fff" d="M85.55 42.05h-43.1c.36-2.85 1.06-6.14 2.08-9.53h38.94c1.02 3.39 1.72 6.69 2.08 9.53"/>
+  </g>
+  
+  <!-- Left Ribbon Streamer - Blue wavy ribbon on left side of handle -->
+  <g id="left-ribbon">
+    <!-- Left decorative ribbon with wavy shape -->
+    <path fill="#94c1ff" d="M76.69 77.54V96.3l-4.85-3.13-4.83 3.13V77.54c0-2.76-1.17-5.23-3.01-7a9.62 9.62 0 0 0-3 7v10.19l-4.84-3.14-4.85 3.14V77.54c0-5.35 4.34-9.68 9.69-9.68h6.01c5.34 0 9.68 4.33 9.68 9.68"/>
+  </g>
+  
+  <!-- Right Ribbon Streamer - Blue wavy ribbon on right side of handle (included in left ribbon path as symmetric design) -->
+  <!-- Note: The ribbons are rendered together in the previous path as a unified decorative element -->
+  
+  <!-- Central Circle Element - Blue circle at base of rattle head -->
+  <g id="central-circle">
+    <!-- Circular element connecting the rattle head to the handle -->
+    <path fill="#94c1ff" d="M70.64 67.86c0 3.66-2.97 6.64-6.64 6.64s-6.64-2.98-6.64-6.64c0-3.67 2.97-6.65 6.64-6.65s6.64 2.98 6.64 6.65"/>
+  </g>
+  
+  <!-- Rattle Head Outline and Stripes - Blue strokes defining egg shape and horizontal dividing lines -->
+  <g id="rattle-head-outline">
+    <!-- Small decorative element at bottom of handle -->
+    <path fill="#116fff" d="M60.82 109.85c.68 0 1.24-.55 1.24-1.23v-4.14c0-.69-.55-1.24-1.24-1.24-.68 0-1.24.55-1.24 1.24v4.14c0 .68.56 1.23 1.24 1.23"/>
+    
+    <!-- Main rattle head outline with horizontal stripe divisions -->
+    <path fill="#116fff" d="M40.92 46.01c0 8 4.26 15.65 11.28 19.83.59.35 1.35.16 1.7-.43.34-.59.15-1.34-.43-1.69-3.76-2.24-6.64-5.6-8.34-9.5h37.74c-1.7 3.9-4.59 7.27-8.34 9.51-.58.35-.77 1.11-.42 1.7.23.38.64.6 1.06.6.21 0 .43-.06.63-.18 7.01-4.18 11.28-11.83 11.28-19.84 0-12.09-9.74-40.53-23.07-40.53-13.34 0-23.09 28.44-23.09 40.53m40.93-14.73h-35.7c.91-2.85 2.02-5.73 3.29-8.45h29.13c1.27 2.72 2.37 5.6 3.28 8.45m-36.39 2.48h37.08c.7 2.42 1.23 4.83 1.58 7.06H43.88c.35-2.23.88-4.64 1.58-7.06m-1.23 17.98a20.4 20.4 0 0 1-.83-5.73c0-.85.05-1.76.14-2.72h40.92c.09.96.14 1.87.14 2.72 0 1.96-.29 3.89-.83 5.73zM64.01 7.96c4.95 0 9.67 5.38 13.34 12.4H50.66c3.67-7.02 8.4-12.4 13.35-12.4"/>
+  </g>
+  
+  <!-- Handle Details and Ribbon Outlines - Blue strokes for dashed segments and ribbon details -->
+  <g id="handle-details">
+    <!-- Right ribbon outline and details -->
+    <path fill="#116fff" d="M72.51 92.13c-.41-.26-.93-.26-1.34 0l-2.93 1.9V79.05c0-.68-.55-1.24-1.24-1.24-.68 0-1.23.56-1.23 1.24.02 3.99-.07-14.47.17 39.05 0 1.07-.87 1.94-1.94 1.94-1.11 0-1.94-.9-1.94-1.94v-4.51c0-.68-.56-1.24-1.24-1.24s-1.24.56-1.24 1.24v4.51c0 2.42 1.96 4.42 4.42 4.42a4.42 4.42 0 0 0 4.41-4.42V96.86l3.43-2.21 4.18 2.69c.82.53 1.9-.06 1.9-1.04V77.54c0-2.31-.71-4.52-2.06-6.38-.4-.55-1.17-.67-1.73-.27-.55.4-.67 1.17-.27 1.73a8.33 8.33 0 0 1 1.59 4.92v16.49z"/>
+    
+    <!-- Left ribbon outline and details -->
+    <path fill="#116fff" d="M54.14 72.62c.4-.56.28-1.33-.27-1.73-.56-.4-1.33-.28-1.73.27a10.8 10.8 0 0 0-2.06 6.38v10.19c0 .45.24.87.64 1.09.4.21.88.2 1.26-.05l4.18-2.71 3.42 2.23v5.36c0 .69.56 1.24 1.24 1.24.69 0 1.24-.55 1.24-1.24 0-.15-.02 1.77.17-14.6 0-.68-.55-1.24-1.23-1.24-.69 0-1.24.56-1.24 1.24v6.4l-2.93-1.9c-.41-.26-.93-.26-1.34 0l-2.94 1.91v-7.92c0-1.78.55-3.49 1.59-4.92"/>
+  </g>
+  
+  <!-- Circle Outline - Blue stroke around central circle element -->
+  <g id="circle-outline">
+    <!-- Outline stroke for the central circular element -->
+    <path fill="#116fff" d="M64 59.97c-4.34 0-7.88 3.54-7.88 7.89 0 4.34 3.54 7.88 7.88 7.88s7.88-3.54 7.88-7.88c0-4.35-3.54-7.89-7.88-7.89m0 13.29c-2.98 0-5.4-2.42-5.4-5.4 0-2.99 2.42-5.42 5.4-5.42s5.4 2.43 5.4 5.42c0 2.98-2.42 5.4-5.4 5.4"/>
+  </g>
+  
+</svg>

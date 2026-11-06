@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Main Toilet Paper Roll Body - Unrolled sheet extending to the right -->
+  <g id="unrolled-sheet">
+    <!-- Light pink fill representing the unrolled toilet paper sheet -->
+    <path fill="#f0afae" d="M97.58 48a67.6 67.6 0 0 1-22.5-3.85L52 36C25.49 36 4 28.84 4 20v70a13.02 13.02 0 0 0 9.66 12.58l12.4 3.3a54.7 54.7 0 0 1 14.92 6.48 54.8 54.8 0 0 0 19.51 7.49l13.8 2.44a113 113 0 0 0 19.6 1.71 60.7 60.7 0 0 0 30.11-8V40a47.63 47.63 0 0 1-26.42 8"/>
+  </g>
+  
+  <!-- Cardboard Core Top Ellipse - Visible inner core at the top -->
+  <g id="core-top">
+    <!-- Top ellipse of the cardboard core showing the circular opening -->
+    <path fill="#ae414c" d="M52 26c21.66 0 24-4.2 24-6 0-5.42-16.78-6-24-6-21.66 0-24 4.2-24 6 0 5.42 16.78 6 24 6"/>
+  </g>
+  
+  <!-- Cardboard Core Bottom Ellipse - Inner core detail at bottom -->
+  <g id="core-bottom">
+    <!-- Bottom ellipse showing the depth of the cardboard core -->
+    <path fill="#ae414c" d="M52 18a67.3 67.3 0 0 1 18.8 2A67.3 67.3 0 0 1 52 22a67.3 67.3 0 0 1-18.79-2A67.3 67.3 0 0 1 52 18"/>
+  </g>
+  
+  <!-- Perforation Line - Dashed line indicating tear points -->
+  <g id="perforation-marks">
+    <!-- Series of small rectangles creating a vertical perforation line -->
+    <path fill="#ae414c" d="M22 49.04h4v4h-4z"/>
+    <path fill="#ae414c" d="M22 65.04h4v4h-4z"/>
+    <path fill="#ae414c" d="M22 57.04h4v4h-4z"/>
+    <path fill="#ae414c" d="M22 41.04h4v4h-4z"/>
+    <path fill="#ae414c" d="M22 97.04h4v4h-4z"/>
+    <path fill="#ae414c" d="M22 89.04h4v4h-4z"/>
+    <path fill="#ae414c" d="M22 81.04h4v4h-4z"/>
+    <path fill="#ae414c" d="M22 73.04h4v4h-4z"/>
+  </g>
+  
+  <!-- Main Outline and Structure - Complete toilet paper roll outline with all details -->
+  <g id="main-outline">
+    <!-- Burgundy outline defining the complete structure of the toilet paper roll -->
+    </g>
+  
+</svg>

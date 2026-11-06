@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="#ffffff"/>
+  <!-- Wall -->
+  <rect x="0" y="0" width="384" height="130" fill="#e9ecef"/>
+  <!-- Table -->
+  <rect x="0" y="130" width="384" height="254" fill="#a67c52"/>
+  <line x1="0" y1="130" x2="384" y2="130" stroke="#5c4022" stroke-width="6"/>
+  <!-- Shadows -->
+  <ellipse cx="80" cy="180" rx="45" ry="12" fill="#000000" opacity="0.3"/>
+  <polygon points="200,205 320,225 350,165 230,145" fill="#000000" opacity="0.2"/>
+  <!-- Plant -->
+  <!-- Leaves -->
+  <path d="M 80 130 Q 30 50 70 10 Q 90 70 80 130" fill="#2d6a4f"/>
+  <path d="M 80 130 Q 140 40 160 50 Q 120 90 80 130" fill="#40916c"/>
+  <path d="M 80 130 Q 10 90 20 110 Q 50 130 80 130" fill="#52b788"/>
+  <!-- Pot -->
+  <polygon points="50,130 110,130 95,185 65,185" fill="#cb997e"/>
+  <polygon points="45,120 115,120 110,130 50,130" fill="#b07d62"/>
+  <!-- Book -->
+  <!-- Cover -->
+  <polygon points="220,140 340,160 310,220 190,200" fill="#1d3557"/>
+  <!-- Pages -->
+  <polygon points="340,160 348,166 318,226 310,220" fill="#f1faee"/>
+  <!-- Spine/Thickness -->
+  <polygon points="190,200 310,220 318,226 198,206" fill="#112233"/>
+  <!-- Bookmark -->
+  <path d="M 285 151 L 295 130 L 310 135 L 295 153 Z" fill="#ffb703"/>
+</svg>

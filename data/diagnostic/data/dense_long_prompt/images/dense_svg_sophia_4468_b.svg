@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Conical Surface - Main body of the cone extending from apex to base -->
+  <g id="cone-surface">
+    <!-- Triangular path forming the visible surface of the cone -->
+    <!-- Apex at (64.18, 19.2), base corners at (27.46, 103.02) and (99.28, 103.72) -->
+    <path fill="#ffc68d" d="M27.46 103.02 64.18 19.2l35.1 84.52z"/>
+  </g>
+  
+  <!-- Circular Base - Elliptical bottom surface of the cone -->
+  <g id="cone-base">
+    <!-- Ellipse representing the 3D circular base in isometric view -->
+    <!-- Center approximately at (63.24, 105.7) with horizontal radius ~37px and vertical radius ~11px -->
+    </g>
+  
+</svg>

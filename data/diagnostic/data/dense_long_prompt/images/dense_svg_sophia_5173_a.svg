@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Right Ear Inner Detail - Dark gray inner ear shape on the right side -->
+  <g id="right-ear-inner">
+    <path fill="#5A5A5A" d="m76.85 42.25 2.71 10.56 8.07-1.94c2.33-3.35 8.09-8.47 6.95-14.01-1.71-8.37-11.18-17.69-8.63-23.29-7.14 12.7-9.1 28.68-9.1 28.68"/>
+  </g>
+  
+  <!-- Right Ear Outer Shape - Pale pink outer ear on the right side -->
+  <g id="right-ear-outer">
+    <path fill="#FFE2DB" d="m87.63 50.87.08 9.29L97.79 59l8.4-7.49c1.1-.98 1.82-2.32 2.04-3.78 2.95-19.47-3.67-36.27-7.25-43.58-1.12-2.3-4.08-3-6.11-1.44-3.62 2.79-6.56 6.64-8.92 10.86-4.24 9.3 7.53 28.9 1.68 37.3"/>
+  </g>
+  
+  <!-- Left Ear Inner Detail - Medium gray inner ear shape on the left side -->
+  <g id="left-ear-inner">
+    <path fill="#838383" d="m51.15 42.25-2.07 10.56-8.71-1.94c-2.33-3.35-8.09-8.47-6.95-14.01 1.71-8.37 11.18-17.69 8.63-23.29 7.14 12.7 9.1 28.68 9.1 28.68"/>
+  </g>
+  
+  <!-- Left Ear Outer Shape - Pale pink outer ear on the left side -->
+  <g id="left-ear-outer">
+    <path fill="#FFE2DB" d="m40.37 50.87-.21 9.29L30.21 59l-8.4-7.49a6.32 6.32 0 0 1-2.04-3.78c-2.95-19.47 3.67-36.27 7.25-43.58 1.12-2.3 4.08-3 6.11-1.44 3.62 2.79 6.56 6.64 8.92 10.86 4.24 9.3-7.53 28.9-1.68 37.3"/>
+  </g>
+  
+  <!-- Main Head Structure - Medium gray main face/head shape connecting the ears -->
+  <g id="main-head">
+    <path fill="#9C9C9C" d="m30.21 59 1.78 32.73c.41 7.46 4.9 14.1 11.68 17.25l12.23 5.68h16.2l12.23-5.68a20.25 20.25 0 0 0 11.68-17.25L97.79 59 76.85 42.25h-25.7z"/>
+  </g>
+  
+  <!-- Head Shading Detail - Dark gray shading on the right side of the head -->
+  <g id="head-shading">
+    <path fill="#838383" d="M69.28 114.66h2.82l12.23-5.68a20.25 20.25 0 0 0 11.68-17.25L97.79 59 76.85 42.25h-1.47c4.92 10.43 15.17 38.16-2.16 59.57-4.56 5.62-5.42 9.78-3.94 12.84M64 56.06c4.48 0 8.1-3.63 8.1-8.1V33.98c0-2.38-1.93-4.31-4.3-4.31h-7.6c-2.37 0-4.3 1.93-4.3 4.31v13.98c0 4.47 3.62 8.1 8.1 8.1"/>
+  </g>
+  
+  <!-- Top Head Feature - Medium gray forehead/top head rounded shape -->
+  <g id="forehead">
+    <path fill="#5A5A5A" d="M60.62 55.33c1.03.47 2.17.73 3.38.73 4.48 0 8.1-3.63 8.1-8.1V33.98c0-2.38-1.92-4.31-4.3-4.31h-6.76a4.31 4.31 0 0 1 4.31 4.31v13.98c0 3.27-1.94 6.09-4.73 7.37"/>
+  </g>
+  
+  <!-- Snout Main Shape - Pale pink muzzle/snout area below the head -->
+  <g id="snout-main">
+    <path fill="#FFE2DB" d="m44.25 107.7 6-17.29c4.52-13.05 22.98-13.05 27.5 0l6 17.29c2.29 6.6-2.61 13.49-9.59 13.49-5.61 0-10.16-4.55-10.16-10.16 0 5.61-4.55 10.16-10.16 10.16-6.98 0-11.88-6.89-9.59-13.49"/>
+  </g>
+  
+  <!-- Snout Shading Detail - Light pink shading on the right side of the snout -->
+  <g id="snout-shading">
+    <path fill="#F3CFCA" d="M58.85 81.53c3.77 1.38 7.03 4.34 8.6 8.88l6 17.29c1.66 4.8-.47 9.74-4.44 12.09 1.51.88 3.27 1.39 5.14 1.39 6.99 0 11.89-6.88 9.6-13.48l-6-17.29c-2.95-8.51-11.83-11.47-18.9-8.88"/>
+  </g>
+  
+  <!-- Nose Main Shape - Dark gray nose at the bottom center -->
+  <g id="nose-main">
+    <path fill="#5A5A5A" d="M64 111.03c5.09 0 9.21-4.13 9.21-9.21 0-3.07-2.48-5.55-5.54-5.55h-7.34c-3.06 0-5.54 2.48-5.54 5.55 0 5.08 4.12 9.21 9.21 9.21"/>
+  </g>
+  
+  <!-- Nose Highlight - Charcoal highlight/shading on the nose for depth -->
+  <g id="nose-highlight">
+    <path fill="#444" d="M60.51 110.34c1.08.45 2.26.69 3.49.69 5.09 0 9.21-4.13 9.21-9.21v-.01a5.54 5.54 0 0 0-5.54-5.54H60.7a5.54 5.54 0 0 1 5.54 5.54v.01c0 3.85-2.37 7.15-5.73 8.52"/>
+  </g>
+
+</svg>

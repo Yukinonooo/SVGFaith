@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="#ffffff"/>
+  <!-- Wall -->
+  <rect x="0" y="0" width="384" height="130" fill="#e9ecef"/>
+  <!-- Table -->
+  <rect x="0" y="130" width="384" height="254" fill="#a67c52"/>
+  <line x1="0" y1="130" x2="384" y2="130" stroke="#5c4022" stroke-width="6"/>
+  <!-- Shadows -->
+  <ellipse cx="80" cy="180" rx="45" ry="12" fill="#000000" opacity="0.3"/>
+  <polygon points="200,205 320,225 350,165 230,145" fill="#000000" opacity="0.2"/>
+  <!-- Plant -->
+  <!-- Leaves -->
+  <path d="M 80 130 Q 30 50 70 10 Q 90 70 80 130" fill="#2d6a4f"/>
+  <path d="M 80 130 Q 140 40 160 50 Q 120 90 80 130" fill="#40916c"/>
+  <path d="M 80 130 Q 10 90 20 110 Q 50 130 80 130" fill="#52b788"/>
+  <!-- Pot -->
+  <polygon points="50,130 110,130 95,185 65,185" fill="#cb997e"/>
+  <polygon points="45,120 115,120 110,130 50,130" fill="#b07d62"/>
+  <!-- Book -->
+  <!-- Cover -->
+  <polygon points="220,140 340,160 310,220 190,200" fill="#1d3557"/>
+  <!-- Pages -->
+  <polygon points="340,160 348,166 318,226 310,220" fill="#f1faee"/>
+  <!-- Spine/Thickness -->
+  <polygon points="190,200 310,220 318,226 198,206" fill="#112233"/>
+  <!-- Bookmark -->
+  <path d="M 285 151 L 295 130 L 310 135 L 295 153 Z" fill="#ffb703"/>
+  <!-- Car Shadow -->
+  <ellipse cx="190" cy="365" rx="150" ry="15" fill="#000000" opacity="0.3"/>
+  <!-- Car Body -->
+  <path d="M 60 280 L 110 240 L 230 240 L 280 280 L 340 280 C 360 280, 370 290, 360 320 L 350 345 C 340 355, 330 360, 310 360 L 60 360 C 40 360, 30 350, 20 330 C 10 310, 30 280, 60 280 Z" fill="#e63946" />
+  <!-- Car Windows -->
+  <path d="M 120 245 L 170 245 L 170 280 L 110 280 Z" fill="#a8dadc" stroke="#1d3557" stroke-width="3"/>
+  <path d="M 180 245 L 220 245 L 260 280 L 180 280 Z" fill="#a8dadc" stroke="#1d3557" stroke-width="3"/>
+  <!-- Car Wheels -->
+  <circle cx="100" cy="350" r="35" fill="#111111"/>
+  <circle cx="280" cy="350" r="35" fill="#111111"/>
+  <circle cx="100" cy="350" r="15" fill="#e5e5e5"/>
+  <circle cx="280" cy="350" r="15" fill="#e5e5e5"/>
+  <!-- Details -->
+  <ellipse cx="350" cy="305" rx="8" ry="12" fill="#ffd166"/>
+  <path d="M 15 310 L 30 310 L 30 330 L 15 325 Z" fill="#990000"/>
+</svg>

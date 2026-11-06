@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Background Rectangle Behind Handle - Pale blue vertical rectangle providing depth -->
+  <g id="handle-background">
+    <path fill="#c8daff" d="M45.56 56.18h8.75v43.77h-8.75z"/>
+  </g>
+  
+  <!-- Handle Shadow/Depth Element - White curved shape at handle junction -->
+  <g id="handle-junction-shadow">
+    <path fill="#fff" d="m39.69 82.13 17.04-17.05a5.203 5.203 0 0 1 0 7.37l-9.68 9.68a5.21 5.21 0 0 1-7.36 0"/>
+  </g>
+  
+  <!-- Racket Head Background Fill - Light blue fill for racket head oval -->
+  <g id="racket-head-background">
+    <path fill="#c8daff" d="M116.94 11.06a26.2 26.2 0 0 0-3.77-3.12L59.35 60.11c.42 2.32 1.32 4.28 2.79 5.75 10.25 10.26 44.55-7.42 54.8-17.67s10.25-26.88 0-37.13"/>
+  </g>
+  
+  <!-- Racket Head Base Layer - White oval base for string area -->
+  <g id="racket-head-base">
+    <path fill="#fff" d="M112.34 44.19c9.97-9.96 10.24-25.95.83-36.25-10.22-6.99-24.28-5.95-33.36 3.12-8.78 8.79-23.01 35.21-20.46 49.05 10.57 9.67 42.84-5.76 52.99-15.92"/>
+  </g>
+  
+  <!-- String Grid Pattern Section 1 - White rectangular section of strings -->
+  <g id="string-grid-section-1">
+    <path fill="#fff" d="M115.28 25.12c-.34-1.29-.83-2.54-1.47-3.74l-6.93-7.05c-1.2-.67-2.46-1.18-3.76-1.55v.09L67.04 54.88c-.1 2.12.28 3.8 1.28 4.8 1.54 1.53 4.65 1.62 8.56.75 1.18-.27 2.44-.62 3.75-1.05L90 55.54c1.25-.6 2.51-1.24 3.75-1.9l4.06-2.27c3.37-1.97 6.5-4.06 9.07-6.03l6.72-7.09c.68-1.2 1.21-2.46 1.58-3.75z"/>
+  </g>
+  
+  <!-- String Grid Pattern Section 2 - Additional white sections completing grid -->
+  <g id="string-grid-section-2">
+    <path fill="#fff" d="m108.68 21.38-1.8-4.13c-.73-1.19-1.6-2.32-2.63-3.36-.36-.36-.74-.7-1.13-1.02l-9.37-.12c-1.29.35-2.55.86-3.75 1.51l-7.53 7.12c-1.84 2.4-3.76 5.29-5.59 8.39l-2.65 4.73c-.66 1.24-1.29 2.5-1.89 3.75l-3.81 9.37c-.41 1.32-.76 2.57-1.01 3.76-.27 1.26-.44 2.43-.48 3.5 2.35.77 5.85.38 9.84-.77 1.21-.36 2.46-.77 3.74-1.25 1.2-.45 2.42-.95 3.64-1.48 3.22-1.42 6.47-3.12 9.49-4.93l9.37-6.74c.4-.36.78-.72 1.13-1.07 1.25-1.25 2.28-2.65 3.07-4.14 2.01-2.95 2.32-6.88 2.01-9.37-.08-1.27-.3-2.53-.65-3.75"/>
+  </g>
+  
+  <!-- Handle Grip Shadow - Light blue curved shapes forming handle grip -->
+  <g id="handle-grip-shadow">
+    <path fill="#c8daff" d="M39.73 88.27c-.59-.6-1.26-1.08-1.97-1.45L3.39 116.26c-.11 2.17.66 4.38 2.32 6.04 3.1 3.1 8.14 3.1 11.25 0l22.77-22.78c3.11-3.11 3.11-8.15 0-11.25"/>
+  </g>
+  
+  <!-- Handle Grip Detail - Additional light blue element for handle depth -->
+  <g id="handle-grip-detail">
+    <path fill="#c8daff" d="m14.38 116.03 21.36-21.36a7.92 7.92 0 0 0 2.01-7.85 7.96 7.96 0 0 0-9.27 1.45L5.7 111.05a7.88 7.88 0 0 0-2.31 5.21 7.94 7.94 0 0 0 10.99-.23M75.47 21.13l-9.81 12.62a8.74 8.74 0 0 0 7.71 4.63c4.84 0 8.75-3.92 8.75-8.75 0-4.12-2.83-7.56-6.65-8.5"/>
+  </g>
+  
+  <!-- Tennis Ball Background - Light blue circular background -->
+  <g id="tennis-ball-background">
+    <!-- This is part of the handle grip detail path above -->
+  </g>
+  
+  <!-- Tennis Ball Highlight - White curved highlight on ball -->
+  <g id="tennis-ball-highlight">
+    <path fill="#fff" d="M76.5 25.25c0-1.49-.37-2.89-1.03-4.12-.67-.17-1.37-.25-2.09-.25-4.84 0-8.76 3.91-8.76 8.74 0 1.5.38 2.9 1.04 4.13.67.16 1.37.25 2.09.25 4.83 0 8.75-3.92 8.75-8.75"/>
+  </g>
+  
+  <!-- Main Racket Outline and Details - Blue stroke defining entire racket, strings, ball, and handle -->
+  <g id="racket-outline-details">
+    <!-- Main racket structure with string grid details -->
+    </g>
+  
+  <!-- Motion Lines - Four horizontal blue lines indicating movement -->
+  <g id="motion-lines">
+    <!-- Top motion line -->
+    <path fill="#548cfe" d="M55.88 35.88H41.62c-1.03 0-1.87-.84-1.87-1.88s.84-1.88 1.87-1.88h14.26c1.03 0 1.87.84 1.87 1.88s-.84 1.88-1.87 1.88"/>
+    <!-- Second motion line (longer) -->
+    <path fill="#548cfe" d="M55.88 27.12H29.62c-1.03 0-1.87-.83-1.87-1.87s.84-1.87 1.87-1.87h26.26c1.03 0 1.87.83 1.87 1.87s-.84 1.87-1.87 1.87"/>
+    <!-- Third motion line (longest) -->
+    <path fill="#548cfe" d="M20.88 27.12H3.38a1.87 1.87 0 1 1 0-3.74h17.5c1.03 0 1.87.83 1.87 1.87s-.84 1.87-1.87 1.87"/>
+    <!-- Bottom motion line (short) -->
+    <path fill="#548cfe" d="M32.88 35.88h-8.76c-1.03 0-1.87-.84-1.87-1.88s.84-1.88 1.87-1.88h8.76c1.03 0 1.87.84 1.87 1.88s-.84 1.88-1.87 1.88"/>
+  </g>
+  
+</svg>

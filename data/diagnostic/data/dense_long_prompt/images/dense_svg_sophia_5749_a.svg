@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Body/Base - Gray curved foundation at bottom representing elephant's body -->
+  <g id="body-base">
+    <path fill="#a69e8d" d="M2 126c0-23.2 20-60 62-60s62 36.8 62 60z"/>
+  </g>
+  
+  <!-- Left Ear - Gray ear extending outward to the left side -->
+  <g id="left-ear">
+    <path fill="#ada593" d="M36 76c-22 20-20 6-24-4C4.95 54.38 2 54 2 38 2-8 36 28 36 28z"/>
+  </g>
+  
+  <!-- Right Ear - Gray ear extending outward to the right side, mirroring left -->
+  <g id="right-ear">
+    <path fill="#ada593" d="M92 76c22 20 20 6 24-4 7.05-17.62 10-18 10-34 0-46-34-10-34-10z"/>
+  </g>
+  
+  <!-- Head/Face - Large beige central face forming the main head structure -->
+  <g id="head-face">
+    <!-- Main head shape with curved top and sides -->
+    <path fill="#c7bda9" d="M64 90c55.62 0 33.77-38.3 33.77-38.3 3.97-14.11 3.97-36.28-11.92-40.31C69.96 7.35 69.96 13.4 64 13.4s-5.96-6.05-21.85-2.01c-15.89 4.03-15.89 26.2-11.92 40.31C30.23 51.7 8.38 90 64 90"/>
+  </g>
+  
+  <!-- Left Tusk - Cream-colored tusk on the left side -->
+  <g id="left-tusk">
+    <!-- Curved tusk shape extending from left side of face -->
+    <path fill="#f8ead3" d="M50 64s0 14-16 28c0 0 18 4 28-14z"/>
+  </g>
+  
+  <!-- Right Tusk - Cream-colored tusk on the right side, mirroring left -->
+  <g id="right-tusk">
+    <!-- Curved tusk shape extending from right side of face -->
+    <path fill="#f8ead3" d="M78 64s0 14 16 28c0 0-18 4-28-14z"/>
+  </g>
+  
+  <!-- Trunk - Beige trunk curving downward from center of face -->
+  <g id="trunk">
+    <!-- Central trunk with curved path extending downward and slightly to the right -->
+    <path fill="#c7bda9" d="M78 64c-4 4-10.66 30.9 0 38 12 8 22-10 22-10l4 6 6-2s-6 22-30 22-26-26-26-36-4-18-4-18 2-8 14-8 14 8 14 8"/>
+  </g>
+  
+</svg>

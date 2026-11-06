@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Glass Base/Holder - Dark gray semicircular element at the bottom of the glass -->
+  <g id="glass-base">
+    <!-- Small dark gray semicircle forming the base holder of the tea glass -->
+    <path fill="#606060" d="M73.54 94.3c-1.26-2.42-3.2-3.95-5.46-4.3-2.42-.39-4.95.65-6.93 2.84a14.2 14.2 0 0 0-3.34 7.3c-.01.09-.02.17-.03.28l-.45 3.27h17.48l.11-2.72c.12-2.31-.35-4.6-1.38-6.67"/>
+  </g>
+  
+  <!-- Glass Rim - Light blue trapezoid at the top representing the glass opening -->
+  <g id="glass-rim">
+    <!-- Light blue rim with flared edges at the top of the glass -->
+    <path fill="#bdd8ff" d="M79.17 19.57H34.24l1.77 3.97c.89 2.02 2.24 5.18 3.57 8.82l.67 1.86h47.83l.68-1.86c1.32-3.63 2.67-6.8 3.56-8.82l1.77-3.97z"/>
+  </g>
+  
+  <!-- Tea Body - Red hourglass-shaped main body with concave sides -->
+  <g id="tea-body">
+    <!-- Large red hourglass shape representing the tea inside the glass, with characteristic concave curves -->
+    <path fill="#b52828" d="M89.29 68.79c-2-3.66-3.9-7.1-4.82-11.21-1-4.46-.16-11.27 2.43-19.7l1.13-3.66H40.31l1.13 3.66c2.59 8.43 3.43 15.24 2.43 19.7-.92 4.11-2.82 7.56-4.8 11.21-4.04 7.36-8.61 15.71-6.95 32.34l.26 2.55h25.1l.24-2.56c.03-.37.07-.69.12-.99.48-3.06 1.81-5.8 3.75-7.72 1.22-1.26 2.8-2.1 4.53-2.41l2.03-.32 1.84.93c1.55.82 2.79 2.11 3.57 3.67 1 2.01 1.47 4.24 1.38 6.48l-.08 2.91H96l.26-2.55c1.64-16.63-2.93-24.96-6.97-32.33"/>
+  </g>
+  
+  <!-- Saucer - Beige oval plate beneath the glass -->
+  <g id="saucer">
+    <!-- Beige oval saucer at the bottom supporting the tea glass -->
+    </g>
+
+</svg>

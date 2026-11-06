@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Right Tree Trunk - Main brown rectangular trunk -->
+  <g id="right-tree-trunk">
+    <path fill="#cc734c" d="M85.51 99.73v22.05h-9V99.73"/>
+  </g>
+  
+  <!-- Right Tree Trunk Detail - Darker brown band for depth -->
+  <g id="right-tree-trunk-detail">
+    <path fill="#c26237" d="M76.51 99.88h9v3.88h-9z"/>
+  </g>
+  
+  <!-- Right Tree - Bottom Foliage Tier (Dark #2563eb) -->
+  <g id="right-tree-bottom-tier">
+    <!-- Largest triangular tier at base of right tree -->
+    <path fill="#2563eb" d="m105.31 100.06-5.4-3.64-2.92 3.53-24.06.11H51.31l12.6-29.58 30.47 1.26 7.33 10.21 13.91 18.11z"/>
+  </g>
+  
+  <!-- Right Tree - Second Foliage Tier (Light #2563eb) -->
+  <g id="right-tree-second-tier">
+    <!-- Second tier from bottom, lighter #2563eb -->
+    <path fill="#2563eb" d="M110.4 81.95H94.51l-3.6-3.63-3.6 3.63H53.59l17.27-29.21 14.65 1.15 12.6 11.79z"/>
+  </g>
+  
+  <!-- Right Tree - Third Foliage Tier (Dark #2563eb) -->
+  <g id="right-tree-third-tier">
+    <!-- Third tier from bottom, dark #2563eb -->
+    <path fill="#2563eb" d="M106.32 65.68H78.31l-1.8-5.45-5.4 5.45H53.59l10.84-12.69 14.62-17.12c.01.02.01.04.03.04l.04.04a1 1 0 0 0 .11.12l.12.13c-.04-.04-.07-.09-.11-.09.06.05.11.1.15.14l.1.11c1.16 1.26 4.81 5.25 15.21 16.63 3.19 3.49 7.02 7.67 11.62 12.69"/>
+  </g>
+  
+  <!-- Left Tree - Bottom Foliage Tier (Medium #2563eb) -->
+  <g id="left-tree-bottom-tier">
+    <!-- Largest triangular tier at base of left tree -->
+    <path fill="#2563eb" d="M54.91 103.68H16.6l11.52-14.47 15.06-19.92 18.93 19.92 14.43 14.47H62.11l-3.6-3.64z"/>
+  </g>
+  
+  <!-- Left Tree Trunk - Brown rectangular trunk -->
+  <g id="left-tree-trunk">
+    <path fill="#cc734c" d="M40.51 103.68h9v18.1h-9z"/>
+  </g>
+  
+  <!-- Left Tree - Second Foliage Tier (Light #2563eb) -->
+  <g id="left-tree-second-tier">
+    <!-- Second tier from bottom -->
+    <path fill="#2563eb" d="m60.31 76.53 8.83 12.67H40.51l-3.6-3.64-3.6 3.64H20.93l10.58-12.67 3.57-3.92 22.27-.87z"/>
+  </g>
+  
+  <!-- Left Tree Top Decoration - Black circular topper -->
+  <g id="left-tree-top-circle">
+    <!-- Elliptical black circle at top of left tree -->
+    <path d="M50.39 29.48a4.5 3.62 0 0 1-4.5 3.62 4.5 3.62 0 0 1-4.5-3.62 4.5 3.62 0 0 1 4.5-3.62 4.5 3.62 0 0 1 4.5 3.62"/>
+  </g>
+  
+  <!-- Left Tree - Top Foliage Tier (Light #2563eb) -->
+  <g id="left-tree-top-tier">
+    <!-- Top tier of left tree -->
+    <path fill="#2563eb" d="M100.16 49.39H80.11v-5.45l-7.2 5.45H60.56a.07.07 0 0 0 .02-.05l.02-.02v-.02a.5.5 0 0 0 .09-.14c0-.02.03-.06.03-.08a.06.06 0 0 0 .02-.03c.83-1.46 4.73-8.34 19.64-34.54 14.87 26.19 18.77 33.08 19.6 34.54.02.03.02.05.04.07 0 .02 0 .04.01.04.04.07.08.1.09.14 0 .02.02.02.02.04a.07.07 0 0 0 .02.05"/>
+  </g>
+  
+  <!-- Right Tree Top Decoration - Black circular topper -->
+  <g id="right-tree-top-circle">
+    <!-- Circular black topper at top of right tree -->
+    <path d="M84.86 10.47a4.5 4.52 0 0 1-4.5 4.53 4.5 4.52 0 0 1-4.5-4.53 4.5 4.52 0 0 1 4.5-4.52 4.5 4.52 0 0 1 4.5 4.52"/>
+  </g>
+  
+  <!-- Ground Line - Horizontal olive-#2563eb base line -->
+  <g id="ground-line">
+    <!-- Horizontal line anchoring the composition at bottom -->
+    <path fill="#2563eb" d="M121.51 123.13H6.31a1.35 1.35 0 1 1 0-2.7h115.2a1.35 1.35 0 1 1 0 2.7"/>
+  </g>
+  
+  <!-- Left Tree - Additional Foliage Detail 1 (Medium #2563eb Accent) -->
+  <g id="left-tree-detail-1">
+    <!-- Small detail path for left tree foliage -->
+    <path fill="#2563eb" d="m24.56 76.21-.05.11-.04.02a.8.8 0 0 0 .09-.13"/>
+  </g>
+  
+  <!-- Left Tree - Additional Foliage Detail 2 (Medium #2563eb Path) -->
+  <g id="left-tree-detail-2">
+    <!-- Additional foliage detail for left tree -->
+    <path fill="#2563eb" d="M67.44 76.54h-43.1v-.02a1.3 1.3 0 0 0 .17-.2 1 1 0 0 1 .1-.14l-.05.03c.04-.03.05-.07.09-.11l.04-.03c.7-.96 2.7-3.64 7.75-10.42 3.15-4.23 7.49-10.07 13.45-18.08.02.02.02.04.04.04l.03.05c.11.14.11.14.16.22l.13.16c.93 1.28 4.05 5.46 13.1 17.61 2.27 3.07 4.95 6.69 8.09 10.89"/>
+  </g>
+  
+  <!-- Left Tree - Third Foliage Tier (Light #2563eb) -->
+  <g id="left-tree-third-tier">
+    <!-- Third tier from bottom of left tree -->
+    <path fill="#2563eb" d="M62.34 62.05H51.31l-3.6-3.64-3.6 3.64H29.44s6.17-10.27 8.24-13.68c2.04-3.44 8.21-15.29 8.21-15.29s6.16 11.85 8.22 15.29c1.37 2.25 4.54 7.54 6.52 10.83 1.01 1.69 1.71 2.85 1.71 2.85"/>
+  </g>
+  
+  <!-- Left Tree Trunk Detail - Darker brown band for depth -->
+  <g id="left-tree-trunk-detail">
+    <path fill="#c26237" d="M40.51 103.68h9v3.7h-9z"/>
+  </g>
+
+</svg>

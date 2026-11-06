@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Left Chevron Arrow - Teal-green chevron positioned on the left -->
+  <g id="left-chevron">
+    <!-- Parallelogram shape: starts at x=2, extends to x=24.75, with angled sides pointing to center at y=64 -->
+    <path fill="#26cda0" d="M24.75 25.47H2L26.28 64 2 102.53h22.75L49.02 64z"/>
+  </g>
+  
+  <!-- Center Chevron Arrow - Golden yellow chevron positioned in the middle -->
+  <g id="center-chevron">
+    <!-- Parallelogram shape: starts at x=40.5, extends to x=63.25, with angled sides pointing to center at y=64 -->
+    <path fill="#fec056" d="M63.25 25.47H40.5L64.75 64 40.5 102.53h22.75L87.5 64z"/>
+  </g>
+  
+  <!-- Right Chevron Arrow - Teal-green chevron positioned on the right -->
+  <g id="right-chevron">
+    <!-- Parallelogram shape: starts at x=78.98, extends to x=101.73, with angled sides pointing to center at y=64 -->
+    </g>
+
+</svg>

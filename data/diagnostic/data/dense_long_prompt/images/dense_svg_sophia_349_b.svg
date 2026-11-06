@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Eggplant Body - Main purple rounded body of the eggplant -->
+  <!-- Positioned diagonally with organic curved shape -->
+  <g id="eggplant-body">
+    <path fill="#CBCBF0" d="M10.81 117.19C-.95 105.43-.12 86.26 12.6 76l67.23-56.64 28.81 28.81L52 115.4c-10.26 12.72-29.43 13.55-41.19 1.79"/>
+  </g>
+  
+  <!-- Stem and Calyx - Green top portion with stem and leaf structure -->
+  <!-- Angled upward to the right, creating the characteristic eggplant top -->
+  <g id="stem-calyx">
+    </g>
+
+</svg>

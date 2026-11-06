@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Handle Outer Ring - Dark gray circular ring forming the outer boundary of the stamp handle -->
+  <g id="handle-outer-ring">
+    <!-- Outer circle with inner cutout creating ring effect -->
+    <path fill="#463f35" d="M63.92 0c7.21 0 13.73 2.92 18.45 7.64a26 26 0 0 1 7.64 18.45c0 7.2-2.92 13.72-7.64 18.44a26 26 0 0 1-18.45 7.64c-7.2 0-13.72-2.92-18.44-7.64a26 26 0 0 1-7.64-18.44c0-7.21 2.92-13.73 7.64-18.45A26 26 0 0 1 63.92 0m15.62 10.47c-4-4-9.52-6.47-15.62-6.47S52.3 6.47 48.3 10.47c-3.99 4-6.46 9.52-6.46 15.62s2.47 11.62 6.46 15.61c4 4 9.52 6.47 15.62 6.47s11.62-2.47 15.62-6.47c4-3.99 6.47-9.51 6.47-15.61s-2.47-11.62-6.47-15.62"/>
+  </g>
+
+  <!-- Handle Side Supports - Two curved dark gray paths extending from handle down the sides -->
+  <g id="handle-side-supports">
+    <!-- Left side support path -->
+    <path fill="#463f35" d="M44.97 37.53c.04.04 14.29 14.74 12.07 52.85l-3.99-.22c2.12-36.39-10.94-49.86-10.98-49.9z"/>
+    <!-- Right side support path -->
+    <path fill="#463f35" d="M85.93 40.26c-.04.04-13.1 13.51-10.98 49.9l-3.99.22c-2.22-38.11 12.03-52.81 12.07-52.85z"/>
+  </g>
+
+  <!-- Base Outer Structure - Dark gray rectangular frame forming the main stamp base outline -->
+  <g id="base-outer-structure">
+    <!-- Top base section with rounded corners -->
+    <path fill="#463f35" d="M8.83 88.27h110.34c1.83 0 3.49.75 4.7 1.96 1.2 1.2 1.95 2.87 1.95 4.7v19.92c0 1.11-.89 2-2 2H4.18c-1.11 0-2-.89-2-2V94.93c0-1.83.75-3.5 1.95-4.7a6.63 6.63 0 0 1 4.7-1.96m110.34 4H8.83c-.72 0-1.39.3-1.87.79-.48.48-.78 1.14-.78 1.87v17.92h115.64V94.93c0-.73-.3-1.39-.78-1.87-.48-.49-1.15-.79-1.87-.79"/>
+    <!-- Bottom base section -->
+    <path fill="#463f35" d="M119.61 114.85V126c0 1.1-.9 2-2 2H10.39c-1.1 0-2-.9-2-2v-11.15c0-1.1.9-2 2-2h107.22c1.1 0 2 .9 2 2m-4 9.15v-7.15H12.39V124z"/>
+  </g>
+
+  <!-- Handle Inner Circle - Light blue circular area inside the handle with concentric rings -->
+  <g id="handle-inner-circle">
+    <!-- Inner circle outline (dark gray) -->
+    <path fill="#463f35" d="M63.92 14.38c3.24 0 6.16 1.31 8.28 3.43 2.12 2.11 3.43 5.04 3.43 8.28 0 3.23-1.31 6.16-3.43 8.28a11.66 11.66 0 0 1-8.28 3.43c-3.23 0-6.16-1.31-8.28-3.43a11.68 11.68 0 0 1-3.43-8.28c0-3.24 1.31-6.17 3.43-8.28 2.12-2.12 5.05-3.43 8.28-3.43m5.45 6.25a7.69 7.69 0 0 0-5.45-2.25 7.703 7.703 0 0 0-7.71 7.71c0 2.13.86 4.05 2.26 5.45a7.7 7.7 0 0 0 5.45 2.26c2.13 0 4.06-.87 5.45-2.26a7.67 7.67 0 0 0 2.26-5.45c0-2.13-.86-4.06-2.26-5.46"/>
+    <!-- Inner circle fill (light blue) -->
+    </g>
+
+  <!-- Neck/Body - Light blue tapered section connecting handle to base -->
+  <g id="neck-body">
+    <path fill="#bbdefb" d="M76.42 48.99a25.96 25.96 0 0 1-12.5 3.18c-4.45 0-8.63-1.11-12.3-3.07 3.26 8.1 6.32 20.81 5.52 39.17h13.72c-.8-18.44 2.29-31.18 5.56-39.28"/>
+  </g>
+
+  <!-- Base Inner Rectangle - Mint green fill for the inner base area -->
+  <g id="base-inner-rectangle">
+    <path fill="#b2dfdb" d="M119.17 92.27H8.83c-.72 0-1.39.3-1.87.79-.48.48-.78 1.14-.78 1.87v17.92h115.64V94.93c0-.73-.3-1.39-.78-1.87-.48-.49-1.15-.79-1.87-.79"/>
+  </g>
+
+  <!-- Base Bottom Section - White rectangular area at the bottom of the base -->
+  <g id="base-bottom-section">
+    <path fill="#f5f5f5" d="M115.61 116.85H12.39V124h103.22z"/>
+  </g>
+
+  <!-- Right Edge Shading on Base - Darker teal accent on right side suggesting depth -->
+  <g id="base-right-edge-shading">
+    <path fill="#87a9a5" d="M115.4 94.93v17.92h6.42V94.93c0-.73-.3-1.39-.78-1.87-.48-.49-1.15-.79-1.87-.79h-4.32c.35.82.55 1.72.55 2.66"/>
+  </g>
+
+  <!-- Bottom Section Shading - Gray shading on the bottom right corner -->
+  <g id="bottom-section-shading">
+    <path fill="#b9b9b9" d="M113.4 116.85h-4.21V124h6.42v-7.15z"/>
+  </g>
+
+  <!-- Handle Top Shading - Darker blue accent on the handle for depth -->
+  <g id="handle-top-shading">
+    <path fill="#6f99bb" d="M74.45 7.64a26 26 0 0 1 7.64 18.45c0 5.2-1.52 10.04-4.14 14.11-.16.39-1.33 1.87-1.61 2.23-.54.79-1.18 1.8-1.86 3.06a22.2 22.2 0 0 0 6.86-5.83c.29-.4.54-.74.76-1.03 2.46-3.56 3.91-7.88 3.91-12.54 0-6.1-2.47-11.62-6.47-15.62-2.1-2.1-4.62-3.78-7.42-4.9.81.64 1.59 1.34 2.33 2.07"/>
+  </g>
+
+  <!-- Neck Shading - Darker blue accent on the neck area for depth -->
+  <g id="neck-shading">
+    <path fill="#8ea8bc" d="M76.42 48.99c-1.41.77-2.9 1.41-4.45 1.92-3 7.61-5.83 19.68-5.04 37.36h3.93c-.8-18.44 2.29-31.18 5.56-39.28"/>
+  </g>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Neck/Cap Base - Light peach trapezoidal neck at top of bottle -->
+  <g id="neck-base">
+    <!-- Trapezoidal shape narrowing from bottom to top, created with path using bezier curves -->
+    <path fill="#FFD2C0" d="m56.82 26.19-8.64-16c-2.02-3.72.68-8.25 4.92-8.25h21.8c4.24 0 6.94 4.53 4.92 8.25l-8.64 16c-3.08 5.71-11.28 5.71-14.36 0"/>
+  </g>
+  
+  <!-- Neck/Cap Shadow - Darker peach shading on right side of neck for depth -->
+  <g id="neck-shadow">
+    <!-- Right-side shadow element showing dimensional depth on the neck -->
+    <path fill="#F4AE98" d="M74.9 1.94h-7.27c3.4 0 5.56 6.6 3.95 12.04l-3.63 12.21c-.85 2.86-2.4 4.28-3.95 4.28 2.82 0 5.64-1.42 7.18-4.28l8.64-16c2.02-3.72-.68-8.25-4.92-8.25"/>
+  </g>
+  
+  <!-- Main Bottle Body - Light peach rounded rectangular body -->
+  <g id="bottle-body">
+    <!-- Large rounded rectangle forming the main water bottle container -->
+    <path fill="#FFD2C0" d="M64 123.15c10.78 0 20.81.98 29.15 2.66 7.72 1.56 14.93-4.37 14.93-12.25v-44.4c0-24.34-19.74-44.08-44.08-44.08S19.92 44.82 19.92 69.16v44.4c0 7.88 7.21 13.81 14.93 12.25 8.34-1.68 18.37-2.66 29.15-2.66"/>
+  </g>
+  
+  <!-- Body Shadow - Darker peach shading on right side of body for depth -->
+  <g id="body-shadow">
+    <!-- Right-side shadow creating three-dimensional appearance on main bottle body -->
+    <path fill="#F4AE98" d="M64 25.08c20.17 0 36.51 19.74 36.51 44.08v44.4c0 5.98-3.44 10.84-7.9 12.15.18.03.36.07.54.1 7.72 1.56 14.93-4.37 14.93-12.25v-44.4c0-24.34-19.74-44.08-44.08-44.08"/>
+  </g>
+  
+  <!-- Decorative Flower Motif - Golden yellow six-petaled flower centered on bottle -->
+  <g id="flower-decoration">
+    <!-- Six-petaled flower pattern created from overlapping circular shapes, centered on bottle body -->
+    </g>
+  
+</svg>

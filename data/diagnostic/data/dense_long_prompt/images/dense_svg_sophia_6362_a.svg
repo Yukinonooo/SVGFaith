@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Main Apron Body - Red apron with neck loop, shoulder straps, body panel, and waist ties -->
+  <g id="apron-body">
+    <path fill="#c3403f" d="M120 58.67h-5.33c0-2.94-2.4-5.34-5.34-5.34h-7.25C91.74 47.22 85.33 36.03 85.33 24c0-1.47-1.19-2.67-2.66-2.67H80v-.2c0-8.71-7.12-15.8-15.86-15.8-8.83-.18-16.15 6.98-16.14 15.82v.18h-2.67c-1.47 0-2.66 1.2-2.66 2.67 0 11.98-6.36 23.12-16.76 29.33h-7.24c-2.94 0-5.34 2.4-5.34 5.34H8c-3.46.04-3.54 5.27 0 5.33h5.33c2.94 0 5.34-2.39 5.34-5.33H24V120a2.67 2.67 0 0 0 2.67 2.67h74.66c1.48 0 2.67-1.2 2.67-2.67V58.67h5.33c0 2.94 2.4 5.33 5.34 5.33H120c3.47-.05 3.54-5.27 0-5.33M53.33 21.15c.42-14.05 21.17-13.8 21.34.18H53.33z"/>
+    <!-- Neck loop forms semicircular arch at top -->
+    <!-- Waist ties extend horizontally at mid-height (around y=58.67) -->
+    <!-- Main body extends from shoulders down to bottom (y=120) -->
+  </g>
+  
+  <!-- Front Pocket - Yellow rounded-rectangle pocket centered in lower third -->
+  <g id="front-pocket">
+    <path fill="#ffd267" d="M82.67 74.67H45.33c-1.47 0-2.66 1.19-2.66 2.66v16c0 7.36 5.98 13.34 13.33 13.34h16c7.35 0 13.33-5.98 13.33-13.34v-16c0-1.47-1.19-2.66-2.66-2.66"/>
+    <!-- Rounded rectangle pocket positioned centrally -->
+    <!-- Width spans from x=45.33 to x=82.67 -->
+    <!-- Height from y=74.67 with rounded bottom corners -->
+  </g>
+  
+</svg>

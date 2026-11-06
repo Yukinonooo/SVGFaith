@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Main TV Body - Complete television structure with screen frame and stand legs -->
+  <!-- The main path defines the outer rectangle (screen) and two bottom legs (stand) -->
+  <g id="tv-body">
+    <path d="M2.78 16.7v83.47h5.57v11.13h11.13v-11.13h89.04v11.13h11.13v-11.13h5.57V16.7z"/>
+  </g>
+  
+  <!-- Screen Detail Left Section - Left portion of screen surface detail -->
+  <!-- Creates visual interest or reflection effect on the left half of the screen -->
+  <g id="screen-detail-left">
+    <path d="M2.78 27.83H64v22.26H2.78z"/>
+  </g>
+  
+  <!-- Screen Detail Right Section - Right portion of screen surface detail -->
+  <!-- Mirrors the left section, completing the screen's surface detail pattern -->
+  <g id="screen-detail-right">
+    <path d="M64 27.83v22.26h61.220000000000006V27.83z"/>
+  </g>
+
+</svg>

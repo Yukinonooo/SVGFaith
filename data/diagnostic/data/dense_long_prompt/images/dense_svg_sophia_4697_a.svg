@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Gray Door Frame Background - Left side border of the door frame -->
+  <g id="door-frame-background">
+    <path fill="#818181" d="M21.48 83.23h53.04V1.41H21.48z"/>
+  </g>
+  
+  <!-- Dark Gray Door Frame Accent - Right side border accent strip -->
+  <g id="door-frame-accent">
+    <path fill="#434343" d="M70.73 1.41h3.79v81.82h-3.79z"/>
+  </g>
+  
+  <!-- Orange Door Body - Main door surface background -->
+  <g id="door-body">
+    <path fill="#da8659" d="M68.83 1.41H27.17v76.14h41.66z"/>
+  </g>
+  
+  <!-- Brown Door Body Accent - Right edge accent strip on door surface -->
+  <g id="door-body-accent">
+    <path fill="#c56e37" d="M65.05 1.41h3.78v76.14h-3.78z"/>
+  </g>
+  
+  <!-- Brown Door Panels - Top and bottom decorative rectangular panels -->
+  <g id="door-panels">
+    <!-- Bottom panel -->
+    <path fill="#9b5627" d="M32.85 71.86h30.3V49.14h-30.3v22.73"/>
+    <!-- Top panel -->
+    <path fill="#9b5627" d="M63.15 7.09h-30.3v22.73h30.3z"/>
+  </g>
+  
+  <!-- White Window/Mail Slot - Centered white rectangular element between panels -->
+  <g id="window-mail-slot">
+    <path fill="#dcf5ff" d="M34.74 83.23h26.52v11.36H34.74z"/>
+  </g>
+  
+  <!-- Gray Door Handle - Door knob or handle area between panels -->
+  <g id="door-handle">
+    <path fill="#cbcbcb" d="M32.85 44.21h7.57v-9.47h-7.57z"/>
+  </g>
+  
+  <!-- Decorative Elements - Additional circular elements (appear to be unused/invisible) -->
+  <g id="decorative-elements">
+    <path d="M0 0c0-1.26-1.02-2.27-2.27-2.27a2.27 2.27 0 1 0 0 4.54C-1.02 2.27 0 1.26 0 0"/>
+    <path d="M0 0c0-1.26-1.02-2.27-2.27-2.27a2.27 2.27 0 1 0 0 4.54C-1.02 2.27 0 1.26 0 0M0 0c0-1.26 1.02-2.27 2.27-2.27a2.27 2.27 0 1 1 0 4.54C1.02 2.27 0 1.26 0 0"/>
+  </g>
+
+</svg>

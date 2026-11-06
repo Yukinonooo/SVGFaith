@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="#ffffff"/>
+  <rect x="12" y="12" width="360" height="360" fill="#f4ecd8" rx="8" stroke="#e0d4ba" stroke-width="4"/>
+  <path d="M 12 100 h 360 M 12 192 h 360 M 12 284 h 360" stroke="#e0d4ba" stroke-width="2"/>
+  <g transform="translate(180, 320) rotate(15)">
+    <rect x="-2" y="-15" width="4" height="30" fill="#9ca3af"/>
+    <rect x="-5" y="-17" width="10" height="4" fill="#6b7280" rx="1"/>
+  </g>
+  <g transform="translate(230, 330) rotate(-40)">
+    <rect x="-2" y="-15" width="4" height="30" fill="#9ca3af"/>
+    <rect x="-5" y="-17" width="10" height="4" fill="#6b7280" rx="1"/>
+  </g>
+  <g transform="translate(10, 40) scale(1.1)">
+    <path d="M 60 50 h 100 a 10 10 0 0 1 10 10 v 20 a 10 10 0 0 1 -10 10 h -70 a 10 10 0 0 0 -10 10 v 80 a 10 10 0 0 0 10 10 h 70 a 10 10 0 0 1 10 10 v 20 a 10 10 0 0 1 -10 10 h -100 a 20 20 0 0 1 -20 -20 v -140 a 20 20 0 0 1 20 -20 z" fill="#0077b6"/>
+    <rect x="135" y="20" width="10" height="120" fill="#cbd5e1" />
+    <path d="M 135 30 h 10 M 135 40 h 10 M 135 50 h 10 M 135 60 h 10 M 135 70 h 10 M 135 80 h 10 M 135 90 h 10 M 135 100 h 10 M 135 110 h 10 M 135 120 h 10 M 135 130 h 10" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="115" y="10" width="50" height="10" fill="#334155" rx="3"/>
+    <rect x="125" y="140" width="30" height="10" fill="#334155" rx="2"/>
+    <rect x="125" y="180" width="30" height="10" fill="#334155" rx="2"/>
+  </g>
+  <g transform="translate(280, 160) rotate(35) scale(1.1)">
+    <rect x="-4" y="-80" width="8" height="100" fill="#cbd5e1"/>
+    <polygon points="-4,-80 4,-80 2,-100 -2,-100" fill="#94a3b8"/>
+    <path d="M -15 20 v 70 a 15 15 0 0 0 15 15 h 0 a 15 15 0 0 0 15 -15 v -70 a 5 5 0 0 0 -5 -5 h -20 a 5 5 0 0 0 -5 5 z" fill="#d90429"/>
+    <rect x="-8" y="25" width="4" height="60" fill="rgba(0,0,0,0.15)" rx="2"/>
+    <rect x="4" y="25" width="4" height="60" fill="rgba(0,0,0,0.15)" rx="2"/>
+  </g>
+</svg>

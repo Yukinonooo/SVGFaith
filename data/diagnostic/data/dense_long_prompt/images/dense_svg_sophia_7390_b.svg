@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Background - Main light blue rectangular area -->
+  <g id="background">
+    </g>
+  
+  <!-- Header Bar - Darker blue top section -->
+  <g id="header">
+    <path fill="#49aaee" d="M2.5 16.5h123v19.51H2.5z"/>
+  </g>
+  
+  <!-- Green Light - Top traffic signal (go) -->
+  <g id="green-light">
+    <!-- Circle centered at (33.92, 52.38) with radius 6.83 -->
+    <path fill="#35dc86" d="M33.92 59.21c3.76 0 6.83-3.07 6.83-6.83s-3.07-6.83-6.83-6.83c-3.77 0-6.84 3.07-6.84 6.83s3.07 6.83 6.84 6.83"/>
+  </g>
+  
+  <!-- Red Light - Middle traffic signal (stop) -->
+  <g id="red-light">
+    <!-- Circle centered at (33.92, 74.05) with radius 6.83 -->
+    <path fill="#fa5c66" d="M33.92 80.88c3.76 0 6.83-3.07 6.83-6.83 0-3.77-3.07-6.84-6.83-6.84-3.77 0-6.84 3.07-6.84 6.84 0 3.76 3.07 6.83 6.84 6.83"/>
+  </g>
+  
+  <!-- Yellow Light - Bottom traffic signal (caution) -->
+  <g id="yellow-light">
+    <!-- Circle centered at (33.92, 95.71) with radius 6.83 -->
+    <path fill="#fed049" d="M33.92 102.55c3.76 0 6.83-3.07 6.83-6.84 0-3.76-3.07-6.83-6.83-6.83-3.77 0-6.84 3.07-6.84 6.83 0 3.77 3.07 6.84 6.84 6.84"/>
+  </g>
+
+</svg>

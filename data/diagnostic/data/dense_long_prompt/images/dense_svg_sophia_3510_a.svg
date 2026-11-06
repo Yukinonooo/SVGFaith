@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Top Cube - Top Face -->
+  <!-- Diamond-shaped top face in lightest blue -->
+  <g id="top-cube-top-face">
+    <path fill="#e4f6ff" d="M62.05 35.41 31.96 20.37 62.05 5.33l30.09 15.04z"/>
+  </g>
+  
+  <!-- Top Cube - Top Face Highlight -->
+  <!-- Accent highlight on top face creating dimensional depth -->
+  <g id="top-cube-top-highlight">
+    <path fill="#d3effb" d="m62.05 5.33-4.59 2.29 21.19 10.6c1.77.88 1.77 3.42 0 4.3l-21.19 10.6 4.59 2.29 30.09-15.04z"/>
+  </g>
+  
+  <!-- Top Cube - Left Face -->
+  <!-- Left-facing parallelogram in medium-light blue -->
+  <g id="top-cube-left-face">
+    <path fill="#b1e4f9" d="m31.96 20.37 30.09 15.04v36.11L31.96 56.48z"/>
+  </g>
+  
+  <!-- Top Cube - Right Face -->
+  <!-- Right-facing parallelogram in medium blue (darkest visible face) -->
+  <g id="top-cube-right-face">
+    <path fill="#90d8f9" d="M92.14 20.37 62.05 35.41v36.11l30.09-15.04z"/>
+  </g>
+  
+  <!-- Bottom-Left Cube - Top Face -->
+  <!-- Diamond-shaped top face in lightest blue -->
+  <g id="bottom-left-cube-top-face">
+    <path fill="#e4f6ff" d="M31.96 86.57 1.88 71.52l30.08-15.04 30.09 15.04z"/>
+  </g>
+  
+  <!-- Bottom-Left Cube - Top Face Highlight -->
+  <!-- Accent highlight on top face creating dimensional depth -->
+  <g id="bottom-left-cube-top-highlight">
+    <path fill="#d3effb" d="m31.96 56.48-4.59 2.29 21.19 10.6c1.77.89 1.77 3.42 0 4.3l-21.19 10.6 4.59 2.3 30.09-15.05z"/>
+  </g>
+  
+  <!-- Bottom-Left Cube - Left Face -->
+  <!-- Left-facing parallelogram in medium-light blue -->
+  <g id="bottom-left-cube-left-face">
+    <path fill="#b1e4f9" d="m1.88 71.52 30.08 15.05v36.1L1.88 107.63z"/>
+  </g>
+  
+  <!-- Bottom-Left Cube - Right Face -->
+  <!-- Right-facing parallelogram in medium blue -->
+  <g id="bottom-left-cube-right-face">
+    <path fill="#90d8f9" d="M62.05 71.52 31.96 86.57v36.1l30.09-15.04z"/>
+  </g>
+  
+  <!-- Bottom-Right Cube - Top Face -->
+  <!-- Parallelogram-shaped top face in lightest blue -->
+  <g id="bottom-right-cube-top-face">
+    <path fill="#e4f6ff" d="M92.5 85.99 71.61 59.62l33.63-.89 20.89 26.37z"/>
+  </g>
+  
+  <!-- Bottom-Right Cube - Top Face Highlight -->
+  <!-- Accent highlight on top face creating dimensional depth -->
+  <g id="bottom-right-cube-top-highlight">
+    <path fill="#d3effb" d="m105.24 58.73-5.14.13 14.71 18.57c1.23 1.56.16 3.85-1.82 3.9l-23.68.63 3.19 4.03 33.62-.89z"/>
+  </g>
+  
+  <!-- Bottom-Right Cube - Left Face -->
+  <!-- Left-facing parallelogram in medium-light blue -->
+  <g id="bottom-right-cube-left-face">
+    <path fill="#b1e4f9" d="M71.61 59.62 92.5 85.99 77.21 118.7 56.32 92.33z"/>
+  </g>
+  
+  <!-- Bottom-Right Cube - Right Face -->
+  <!-- Right-facing parallelogram in medium blue (darkest visible face) -->
+  <g id="bottom-right-cube-right-face">
+    <path fill="#90d8f9" d="m126.12 85.1-33.62.89-15.29 32.71 33.63-.89z"/>
+  </g>
+  
+</svg>

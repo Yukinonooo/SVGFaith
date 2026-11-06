@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Center Orange Tool - Rectangular body tool in the middle -->
+  <g id="center-orange-tool">
+    <!-- Main orange body -->
+    <path fill="#ffaf10" d="M54.72 49.88V3.38c0-.83.67-1.5 1.5-1.5h17.71c.83 0 1.5.67 1.5 1.5v46.5z"/>
+    <!-- Darker orange shading on right side -->
+    <path fill="#ff890a" d="M73.93 1.88h-6c.83 0 1.5.67 1.5 1.5v46.5h6V3.38c0-.83-.67-1.5-1.5-1.5"/>
+  </g>
+  
+  <!-- Right Gray/Dark Tool - Handle and body sections -->
+  <g id="right-tool-handle">
+    <!-- Dark gray handle body -->
+    <path fill="#ec4899" d="M84.75 37.27h8.28v12.04h-8.28z"/>
+    <!-- Darker shading on handle -->
+    <path fill="#ec4899" d="M87.03 37.27h6v12.04h-6z"/>
+  </g>
+  
+  <!-- Right Orange Cap - Rounded top section -->
+  <g id="right-tool-cap">
+    <!-- Orange cap base -->
+    <path fill="#ffaf10" d="M95.1 30.87H82.68v6.78c0 .83.67 1.5 1.5 1.5h9.42c.83 0 1.5-.67 1.5-1.5z"/>
+    <!-- Darker orange shading on cap -->
+    <path fill="#ff890a" d="M89.1 30.87v6.78c0 .83-.67 1.5-1.5 1.5h6c.83 0 1.5-.67 1.5-1.5v-6.78z"/>
+  </g>
+  
+  <!-- Right #ec4899 Pointed Tip - Triangular top element -->
+  <g id="right-tool-tip">
+    <!-- Light #ec4899 pointed tip -->
+    <path fill="#ec4899" d="M96.43 19.15 90.27 5.03c-.53-1.2-2.23-1.2-2.75 0l-6.17 14.12a8.34 8.34 0 0 0-.71 4.18c.36 4.03 3.66 7.25 7.69 7.52 4.83.32 8.84-3.51 8.84-8.27 0-1.22-.26-2.38-.74-3.43"/>
+    <!-- Darker #ec4899 shading on tip -->
+    <path fill="#ec4899" d="M96.43 19.15 90.27 5.03c-.53-1.2-2.23-1.2-2.75 0L86.39 7.6l5.04 11.55c.48 1.05.74 2.21.74 3.43 0 3.71-2.42 6.84-5.77 7.9.61.2 1.26.32 1.93.37 4.83.32 8.84-3.51 8.84-8.27 0-1.22-.26-2.38-.74-3.43"/>
+  </g>
+  
+  <!-- Left Gray Tool - Handle sections -->
+  <g id="left-tool-handle">
+    <!-- Light gray lower handle -->
+    <path fill="#ec4899" d="M32.98 36.67H45.4v13.25H32.98z"/>
+    <!-- Darker gray shading on lower handle -->
+    <path fill="#ec4899" d="M39.4 36.67h6v13.25h-6z"/>
+    <!-- Dark gray upper handle -->
+    <path fill="#ec4899" d="M32.98 30.87H45.4v8.28H32.98z"/>
+    <!-- Darker shading on upper handle -->
+    <path fill="#ec4899" d="M39.4 30.87h6v8.28h-6z"/>
+  </g>
+  
+  <!-- Left #ec4899 Pointed Tip - Triangular top element with shading -->
+  <g id="left-tool-tip">
+    <!-- Light #ec4899 pointed tip with geometric pattern -->
+    <path fill="#ec4899" d="m32.98 30.87-3.81-7.62c-.21-.42-.21-.92 0-1.34l7.54-15.06c.25-.51.77-.83 1.34-.83h2.29c.56 0 1.08.32 1.34.83l7.53 15.06c.21.42.21.92 0 1.34l-3.81 7.62z"/>
+    <!-- Darker #ec4899 shading on left tip -->
+    <path fill="#ec4899" d="M49.21 21.91 41.68 6.85a1.51 1.51 0 0 0-1.34-.83h-2.29c-.57 0-1.09.32-1.34.83l-.02.03-.21.43 6.73 14.6c.21.42.21.92 0 1.34l-3.81 7.62h6l3.81-7.62c.21-.42.21-.92 0-1.34"/>
+  </g>
+  
+  <!-- Main Container Body - Trapezoidal light #ec4899 container -->
+  <g id="container-body">
+    <!-- Light #ec4899 main container body -->
+    <path fill="#ec4899" d="M99.25 64l-4.16 54.36a8.286 8.286 0 0 1-8.27 7.76H41.26c-4.4 0-7.99-3.43-8.26-7.76L28.84 64v-4.42h70.41z"/>
+    <!-- Darker #ec4899 shading on right side of container -->
+    <path fill="#ec4899" d="M93.25 59.58V64l-4.16 54.36a8.286 8.286 0 0 1-8.27 7.76h6c4.4 0 8-3.43 8.27-7.76L99.25 64v-4.42z"/>
+  </g>
+  
+  <!-- Container Top Rim - Rounded rectangular top edge -->
+  <g id="container-rim">
+    <!-- Light #ec4899 rounded top rim -->
+    <path fill="#ec4899" d="M30.91 47.43c-4.58 0-8.28 3.71-8.28 8.29v6.78c0 .83.67 1.5 1.5 1.5h79.83c.83 0 1.5-.67 1.5-1.5v-6.78c0-4.58-3.71-8.29-8.29-8.29z"/>
+    <!-- Darker #ec4899 shading on rim -->
+    <path fill="#ec4899" d="M97.17 47.43h-6c4.58 0 8.29 3.71 8.29 8.29v6.78c0 .83-.67 1.5-1.5 1.5h6c.83 0 1.5-.67 1.5-1.5v-6.78c0-4.58-3.71-8.29-8.29-8.29"/>
+  </g>
+  
+  <!-- Teal Horizontal Band - Decorative band near container base -->
+  <g id="teal-band">
+    <!-- Teal horizontal stripe -->
+    <path fill="#02af8e" d="m95.44 113.7.64-8.28H32.01l.63 8.28z"/>
+    <!-- Darker teal shading on band -->
+    <path fill="#0e958f" d="m90.08 105.42-.64 8.28h6l.64-8.28z"/>
+  </g>
+
+</svg>

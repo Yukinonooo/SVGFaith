@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="#e0f7fa"/>
+  <rect y="250" width="384" height="134" fill="#a0aab5"/>
+  <path d="M0,250 L384,250" stroke="#ffffff" stroke-width="4"/>
+  <g transform="translate(110, 270) scale(1.1)">
+    <path d="M-20,-15 L-10,-35 L10,-35 L20,-15 Z" fill="#0055ff"/>
+    <path d="M-40,-25 L-10,-35 L-10,-40 L-40,-30 Z" fill="#0055ff"/>
+    <circle cx="0" cy="-15" r="10" fill="#555"/>
+    <path d="M10,-35 L20,-50 L25,-45" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="20" cy="-45" r="4" fill="#ffdd00"/>
+    <circle cx="-30" cy="-15" r="15" fill="#222"/>
+    <circle cx="30" cy="-15" r="15" fill="#222"/>
+    <circle cx="-30" cy="-15" r="6" fill="#ccc"/>
+    <circle cx="30" cy="-15" r="6" fill="#ccc"/>
+  </g>
+  <g transform="translate(280, 270) scale(1.1)">
+    <rect x="-45" y="-30" width="90" height="15" fill="#444"/>
+    <rect x="-45" y="-130" width="60" height="100" fill="#ffcc00" rx="4"/>
+    <path d="M15,-30 L15,-80 L35,-80 L45,-60 L45,-30 Z" fill="#ffaa00"/>
+    <path d="M17,-75 L33,-75 L40,-60 L17,-60 Z" fill="#88ccff"/>
+    <rect x="40" y="-35" width="10" height="10" fill="#555" rx="2"/>
+    <circle cx="-25" cy="-15" r="15" fill="#222"/>
+    <circle cx="25" cy="-15" r="15" fill="#222"/>
+    <circle cx="-25" cy="-15" r="6" fill="#ccc"/>
+    <circle cx="25" cy="-15" r="6" fill="#ccc"/>
+  </g>
+</svg>

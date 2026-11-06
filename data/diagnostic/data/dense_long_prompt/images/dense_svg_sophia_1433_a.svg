@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Gray Base Platform - Foundation for the bar chart -->
+  <g id="base-platform">
+    <path fill="#655e67" d="M1.88 78.55h73.15v10.46H1.88z"/>
+  </g>
+  
+  <!-- Left Bar (White/Beige) - First vertical bar background -->
+  <g id="left-bar-base">
+    <path fill="#f7f3f1" d="M8.66 27.33v51.22h13.37V27.33c0-.69-.56-1.25-1.25-1.25H9.91c-.69 0-1.25.56-1.25 1.25"/>
+  </g>
+  
+  <!-- Left Bar Green Sections - Top and bottom highlights of first bar -->
+  <g id="left-bar-green">
+    <!-- Top green section with rounded top -->
+    <path fill="#6dc187" d="M8.66 27.33v9.74h13.37v-9.74c0-.69-.56-1.25-1.25-1.25H9.91c-.69 0-1.25.56-1.25 1.25"/>
+    <!-- Bottom green section -->
+    <path fill="#6dc187" d="M8.66 67.57h13.37v10.98H8.66z"/>
+  </g>
+  
+  <!-- Middle Bar (Yellow/Beige) - Second vertical bar background -->
+  <g id="middle-bar-base">
+    <path fill="#eec06b" d="M22.03 18.48v60.07h15.98V18.48c0-.69-.56-1.25-1.25-1.25H23.28c-.69 0-1.25.56-1.25 1.25"/>
+  </g>
+  
+  <!-- Middle Bar Orange Overlay - Right edge highlight of second bar -->
+  <g id="middle-bar-overlay">
+    <path fill="#e9a52d" d="M36.76 17.23h-6.25c.69 0 1.25.56 1.25 1.25v60.07h6.25V18.48c0-.69-.56-1.25-1.25-1.25"/>
+  </g>
+  
+  <!-- Tilted Blue Rectangle - Background element behind bars -->
+  <g id="tilted-blue-rect">
+    <!-- Main blue tilted rectangle with rounded corners -->
+    <path fill="#80b6fc" d="m38.15 24.42 20.39 56.05a2.206 2.206 0 0 0 2.82 1.31l12.52-4.56a2.19 2.19 0 0 0 1.31-2.81l-20.4-56.04a2.196 2.196 0 0 0-2.81-1.32l-12.52 4.56a2.183 2.183 0 0 0-1.31 2.81"/>
+  </g>
+  
+  <!-- Tilted Blue Rectangle Overlay - Darker blue shading on right edge -->
+  <g id="tilted-blue-overlay">
+    <path fill="#62a4fb" d="m75.19 74.41-20.4-56.04a2.2 2.2 0 0 0-2.81-1.32l-6.87 2.5 1.36-.49c1.16-.42 2.44.15 2.85 1.29l20.4 56.05c.42 1.14-.19 2.4-1.35 2.83l5.51-2.01a2.2 2.2 0 0 0 1.31-2.81"/>
+  </g>
+  
+  <!-- Beige Rectangle on Tilted Shape - Light colored detail element -->
+  <g id="beige-detail">
+    <path fill="#f0c99d" d="M41.53 27.97h17.71v8.36H41.53z"/>
+  </g>
+  
+  <!-- Orange/Brown Rectangle Detail - Small accent on beige shape -->
+  <g id="orange-detail">
+    <path fill="#e7aa91" d="M53.06 25.94h5.82v8.36h-5.82z"/>
+  </g>
+  
+  <!-- Open Book Base - Main beige pages of the book -->
+  <g id="book-pages">
+    <!-- Book pages with center fold, creating open book effect -->
+    <path fill="#f7f3f1" d="M122.09 48.57c-10.3-7.89-24.54-8.06-35.01-.49-.7.5-1.63.5-2.33 0-10.46-7.57-24.71-7.4-35.01.49-.32.25-.5.63-.5 1.03v48.99c0 1.04 1.16 1.66 2.02 1.08 10.12-6.78 23.45-6.61 33.4.53.75.54 1.76.54 2.52 0 9.94-7.14 23.28-7.31 33.39-.53.87.58 2.02-.04 2.02-1.08V49.6c0-.4-.18-.78-.5-1.03"/>
+  </g>
+  
+  <!-- Book Page Edge Shading - Darker beige on right page for depth -->
+  <g id="book-shading">
+    <path fill="#ebe1dc" d="M122.09 48.57a28.8 28.8 0 0 0-6.93-3.94c.57.37 1.13.77 1.68 1.19.32.24.5.63.5 1.03v48.99c0 .81-.7 1.36-1.42 1.29 1.61.7 3.17 1.54 4.65 2.54.87.58 2.02-.04 2.02-1.08V49.6c0-.4-.18-.78-.5-1.03"/>
+  </g>
+  
+  <!-- Bookmark Ribbon - Dark gray bookmark extending from book -->
+  <g id="bookmark">
+    <path fill="#655e67" d="M107.22 94.24v14.24c0 1.44 1.16 2.6 2.6 2.6h2.59c1.44 0 2.6-1.16 2.6-2.6V94.24c0-1.44-1.16-2.6-2.6-2.6h-2.59c-1.44 0-2.6 1.16-2.6 2.6"/>
+  </g>
+  
+  <!-- Target Icon Outer Circle - Large blue circle background -->
+  <g id="target-outer">
+    <path fill="#91dafa" d="M111.12 84.86c-8.28 0-15.02-6.74-15.02-15.01 0-8.28 6.74-15.01 15.01-15.01 8.28 0 15.01 6.73 15.01 15.01 0 8.27-6.73 15.01-15 15.01"/>
+  </g>
+  
+  <!-- Target Icon Inner Circle - Darker blue center circle -->
+  <g id="target-inner">
+    <path fill="#80b6fc" d="M119.2 69.85c0 4.45-3.63 8.08-8.09 8.08-4.62 0-8.25-3.63-8.25-8.08 0-4.62 3.63-8.25 8.25-8.25 4.46 0 8.09 3.63 8.09 8.25"/>
+  </g>
+  
+</svg>

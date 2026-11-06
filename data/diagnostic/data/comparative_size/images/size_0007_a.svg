@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="#ffffff"/>
+  <circle cx="40" cy="60" r="2" fill="#d1d5db"/>
+  <circle cx="180" cy="40" r="3" fill="#fcd34d"/>
+  <circle cx="340" cy="80" r="2" fill="#d1d5db"/>
+  <circle cx="150" cy="320" r="2" fill="#d1d5db"/>
+  <circle cx="320" cy="340" r="3" fill="#fcd34d"/>
+  <circle cx="60" cy="300" r="2" fill="#fcd34d"/>
+  
+  <g transform="translate(85, 192) scale(0.6) translate(-85, -192)">
+    <path d="M 85 152 A 40 40 0 0 0 85 232 A 25 40 0 0 1 85 152 Z" fill="#cbd5e1"/>
+    <circle cx="65" cy="175" r="5" fill="#94a3b8"/>
+    <circle cx="55" cy="200" r="7" fill="#94a3b8"/>
+    <circle cx="72" cy="215" r="4" fill="#94a3b8"/>
+  </g>
+  
+  <g transform="translate(290, 192) scale(1.6) translate(-290, -192) rotate(-20 290 192)">
+    <path d="M 210 192 A 80 20 0 0 1 370 192" fill="none" stroke="#f97316" stroke-width="8"/>
+    <circle cx="290" cy="192" r="40" fill="#14b8a6"/>
+    <path d="M 255 175 Q 290 190 325 175" fill="none" stroke="#0f766e" stroke-width="4"/>
+    <path d="M 253 210 Q 290 225 327 210" fill="none" stroke="#0f766e" stroke-width="4"/>
+    <path d="M 210 192 A 80 20 0 0 0 370 192" fill="none" stroke="#f97316" stroke-width="8"/>
+  </g>
+</svg>

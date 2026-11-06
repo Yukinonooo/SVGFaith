@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Main Chicken Body - Primary orange mass forming the roasted chicken's body -->
+  <g id="chicken-body-main">
+    <path fill="#fab349" d="M58.62 54.88c-12.48-3.62-25.56 4.3-27.84 17.48-1.64 9.48 3.3 19.2 11.96 23.38 4.2 2.02 8.58 2.62 12.72 2.06 4.54-.62 9.1-.1 13.36 1.6.58.22 1.16.44 1.76.6 9.2 2.64 19.2-2.7 22.1-11.82 3.08-9.68-2.42-19.94-12.12-22.76q-.87-.24-1.74-.42c-4.32-.8-8.44-2.52-11.74-5.46-2.36-2.1-5.22-3.72-8.46-4.68z"/>
+  </g>
+  
+  <!-- Chicken Body Highlights - Light peach overlay adding dimension and shading to the left side -->
+  <g id="chicken-body-highlights">
+    <path fill="#fcd192" d="M36.32 78.36c2.28-13.18 15.36-21.1 27.84-17.48 3.24.94 6.1 2.56 8.46 4.68 3.28 2.92 7.4 4.64 11.74 5.46q.87.15 1.74.42c1.86.54 3.56 1.36 5.06 2.38-2.24-3.92-5.92-7.02-10.6-8.38q-.87-.24-1.74-.42c-4.32-.8-8.44-2.52-11.74-5.46-2.36-2.1-5.22-3.72-8.46-4.68-12.48-3.62-25.56 4.3-27.84 17.48-1.4 8.18 2.06 16.5 8.6 21.34-2.8-4.48-4-9.94-3.06-15.34"/>
+  </g>
+  
+  <!-- Chicken Drumstick/Wing - Light peach rounded shape on the right representing a protruding leg or wing -->
+  <g id="chicken-drumstick">
+    <path fill="#fcd192" d="M74.56 62.08c5.06-2.24 18.28-3.18 20.5 1.88s-7.38 14.18-12.42 16.42-10.96-.06-13.18-5.1.06-10.96 5.1-13.18z"/>
+  </g>
+  
+  <!-- Platter Base - Dark gray rounded base of the serving platter -->
+  <g id="platter-base">
+    <path fill="#75777a" d="M6 92h116c0 4.42-3.58 8-8 8H14c-4.42 0-8-3.58-8-8"/>
+  </g>
+  
+  <!-- Platter Rim - Light gray raised edge/rim detail of the platter -->
+  <g id="platter-rim">
+    <!-- Trapezoidal shape creating the 3D rim effect -->
+    <path fill="#a3aab1" d="m98 100-2.9 5.78a4 4 0 0 1-3.58 2.22H36.48a4 4 0 0 1-3.58-2.22L30 100"/>
+  </g>
+  
+</svg>

@@ -1,0 +1,7 @@
+The benchmark files under data/ and the released score files under scores/ are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+https://creativecommons.org/licenses/by/4.0/
+
+Code under svgfaith/ and tests/ is covered by the Apache License 2.0 in LICENSE.
+
+SVGFaith-Decomposer weights are released separately at https://huggingface.co/Yukinonooo/SVGFaith-Decomposer under the Apache License 2.0. They are a fine-tune of Qwen/Qwen3.5-9B.

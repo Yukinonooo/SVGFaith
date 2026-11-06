@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Pitcher Body - Main beige container with tapered shape -->
+  <g id="pitcher-body">
+    <path fill="#ecdfd3" d="m88.3 15.7-4.88 47.12a8 8 0 0 1-8 7.18H62a8 8 0 0 1-6.88-4A7.9 7.9 0 0 1 54 62.82l-1.3-12.48-.62-6L51.6 40l-2.52-24.32a4 4 0 0 1 3.3-4.36 100 100 0 0 1 10.96-1.18h5.36c2.76 0 5.54.12 8.3.34 2.66.22 5.3.54 8 .98a4 4 0 0 1 3.3 4.24"/>
+  </g>
+  
+  <!-- Blender Base - Brown trapezoidal motor base -->
+  <g id="blender-base">
+    <path fill="#805639" d="M53.38 118a8 8 0 0 1-8-8.68l2.46-29.48.2-2.5a7.4 7.4 0 0 1 .44-2A8 8 0 0 1 56 70h25.34a8 8 0 0 1 7.54 5.32 9.2 9.2 0 0 1 .44 2l.2 2.5L92 109.34a8 8 0 0 1-8 8.66z"/>
+  </g>
+  
+  <!-- Power Button Background - White circular button area -->
+  <g id="power-button-background">
+    <path fill="#ecdfd3" d="M78.5 98c0 5.4-4.4 9.8-9.8 9.8-5.6 0-10-4.4-10-9.8 0-5.6 4.4-10 10-10 5.4 0 9.8 4.4 9.8 10"/>
+  </g>
+  
+  <!-- Transparency Highlights - White diagonal streaks suggesting glass transparency -->
+  <g id="transparency-highlights">
+    <!-- Upper diagonal highlight from top to mid-pitcher -->
+    <path fill="#fff" d="M77 10.34 55 66.1a7.9 7.9 0 0 1-1-3.28l-1.3-12.48L68.56 10h.14c2.76 0 5.54.12 8.3.34"/>
+    <!-- Lower diagonal highlight on pitcher -->
+    <path fill="#fff" d="M65.54 10 52 44.32 51.6 40l11.74-29.86z"/>
+  </g>
+  
+  <!-- Base Outline and Details - Black strokes defining motor base structure -->
+  <g id="base-outline">
+    <!-- Main base outline with top and bottom edges -->
+    <path fill="#1d1e1c" d="M91.36 78v-.84a10 10 0 0 0-10-9.16H56a10 10 0 0 0-10 9.16l-2.66 32a10 10 0 0 0 10 10.84H84a10 10 0 0 0 10-10.84zM56 72h25.34A6 6 0 0 1 87 76H50.4a6 6 0 0 1 5.6-4m32.42 42a6 6 0 0 1-4.42 2H53.38a5.88 5.88 0 0 1-4.4-2 5.8 5.8 0 0 1-1.56-4.56L49.88 80h37.64L90 109.5a6 6 0 0 1-1.58 4.5"/>
+  </g>
+  
+  <!-- Power Button Circle - Black circular outline for button -->
+  <g id="power-button-circle">
+    <path fill="#1d1e1c" d="M68.7 86a12 12 0 1 0 12 12 12 12 0 0 0-12-12m0 20a8 8 0 1 1 8-8 8 8 0 0 1-8 8"/>
+  </g>
+  
+  <!-- Power Button Indicator - Black vertical line inside button -->
+  <g id="power-button-indicator">
+    <path fill="#1d1e1c" d="M68.7 92a2 2 0 0 0-2 2v8a2 2 0 0 0 4 0v-8a2 2 0 0 0-2-2"/>
+  </g>
+  
+  <!-- Pitcher Outline and Details - Black strokes defining pitcher structure -->
+  <g id="pitcher-outline">
+    <!-- Main pitcher outline with top rim and bottom connection to base -->
+    <path fill="#1d1e1c" d="M85.3 9.34a103.5 103.5 0 0 0-33.3.02A6 6 0 0 0 47.08 16l.42 4H36.9a2 2 0 0 0-2 2v16a8 8 0 0 0 8 8h7.3L52 63.02A10 10 0 0 0 62 72h13.56a10 10 0 0 0 10-8.98L90.3 16a6 6 0 0 0-5-6.66M42.9 42a4 4 0 0 1-4-4V24H48l1.86 18zm38.54 20.62a6 6 0 0 1-6 5.38H62a6 6 0 0 1-6-5.38L54 44l-2.26-22-.68-6.5a2 2 0 0 1 1.64-2.18 98.7 98.7 0 0 1 32 0 2 2 0 0 1 1.68 2.18z"/>
+  </g>
+  
+  <!-- Handle Outline - Black stroke defining left-side handle (integrated in pitcher outline path) -->
+  <!-- Note: Handle is part of the pitcher-outline path above, specifically the section with coordinates around x=36-48 -->
+  
+  <!-- Measurement Lines - Black horizontal line on pitcher indicating volume -->
+  <g id="measurement-lines">
+    <path fill="#1d1e1c" d="M80.96 18a2 2 0 0 0-2.24 1.72l-4 30a2 2 0 0 0 1.7 2.28h.28a2 2 0 0 0 2-1.74l4-30A2 2 0 0 0 80.96 18"/>
+  </g>
+  
+</svg>

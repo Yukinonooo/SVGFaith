@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Light #dc2626 Crescent Fill - Background fill layer for the crescent shape -->
+  <g id="crescent-fill">
+    <!-- Light #dc2626 fill creating the inner area of the crescent, positioned at left side of canvas -->
+    <path fill="#dc2626" d="M52.82 20.8a3 3 0 0 0-2.44-1.28h-.9a44.48 44.48 0 0 0 0 88.96 3.46 3.46 0 0 0 3.34-1.28 75.52 75.52 0 0 0 0-86.4"/>
+  </g>
+  
+  <!-- #dc2626 Crescent Outline - Main structural outline defining the crescent shape -->
+  <g id="crescent-outline">
+    <!-- Outer path creates the crescent outline with rounded caps, inner path creates hollow center -->
+    <!-- 44.48 radius semi-circle on outer edge, 38.48 radius on inner edge for thickness -->
+    <path fill="#dc2626" d="M50.38 19.52h-.9a44.48 44.48 0 0 0 0 88.96 3.46 3.46 0 0 0 3.34-1.28 75.52 75.52 0 0 0 0-86.4 3 3 0 0 0-2.44-1.28m-1.58 82.96a38.48 38.48 0 0 1 0-76.96 69.64 69.64 0 0 1 0 76.96"/>
+  </g>
+  
+  <!-- First Horizontal Line (Top) - Topmost bar in the right-side stack -->
+  <g id="line-1">
+    <!-- Rounded rectangle bar positioned at y=30.48 (centered at 33.48 with 3px radius) -->
+    <path fill="#dc2626" d="M78.82 36.48H120a3 3 0 1 0 0-6H78.82a3 3 0 0 0 0 6"/>
+  </g>
+  
+  <!-- Second Horizontal Line - Second bar from top in the right-side stack -->
+  <g id="line-2">
+    <!-- Rounded rectangle bar positioned at y=50.92 (centered at 53.92 with 3px radius) -->
+    <path fill="#dc2626" d="M120 50.92H78.82a3 3 0 0 0 0 6H120a3 3 0 0 0 0-6"/>
+  </g>
+  
+  <!-- Third Horizontal Line - Third bar from top in the right-side stack -->
+  <g id="line-3">
+    <!-- Rounded rectangle bar positioned at y=71.38 (centered at 74.38 with 3px radius) -->
+    <path fill="#dc2626" d="M120 71.38H78.82a3 3 0 0 0 0 6H120a3 3 0 0 0 0-6"/>
+  </g>
+  
+  <!-- Fourth Horizontal Line (Bottom) - Bottommost bar in the right-side stack -->
+  <g id="line-4">
+    <!-- Rounded rectangle bar positioned at y=91.82 (centered at 94.82 with 3px radius) -->
+    <path fill="#dc2626" d="M120 91.82H78.82a3 3 0 0 0 0 6H120a3 3 0 0 0 0-6"/>
+  </g>
+  
+</svg>

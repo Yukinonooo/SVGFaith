@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Backboard - Light blue rounded rectangular backboard with tapered sides -->
+  <g id="backboard">
+    <!-- Main backboard shape with light blue fill -->
+    <path fill="#dbeafe" d="m47.01 76.86-20.04-7.92a5.76 5.76 0 0 1-3.64-5.35v-34.5a5.76 5.76 0 0 1 5.76-5.76h69.82a5.76 5.76 0 0 1 5.76 5.76v34.5a5.76 5.76 0 0 1-3.64 5.35l-20.04 7.93"/>
+  </g>
+  
+  <!-- Hoop opening - Black rectangular area representing the rim opening -->
+  <g id="hoop-opening">
+    <!-- Solid black rectangle for hoop/rim opening -->
+    <path d="M46.29 40.67h35.42V64H46.29z"/>
+  </g>
+  
+  <!-- Net structure - Grid pattern forming the basketball net -->
+  <g id="net-structure">
+    <!-- Complex path creating the net mesh with vertical and horizontal lines -->
+    <!-- Net grid includes multiple segments that taper downward -->
+    </g>
+  
+  <!-- Outer backboard frame - Blue stroke outline with mounting structure -->
+  <g id="outer-frame">
+    <!-- Complete backboard outline with mounting details and frame -->
+    <path fill="#1d4ed8" d="M106 29.09v34.5a7.05 7.05 0 0 1-4.48 6.59L86.05 76.3l.25-2.97 14.24-5.63a4.4 4.4 0 0 0 2.79-4.11v-34.5a4.43 4.43 0 0 0-4.42-4.42H29.09a4.43 4.43 0 0 0-4.42 4.42v34.5a4.4 4.4 0 0 0 2.79 4.11l14.24 5.63.25 2.96-15.47-6.11A7.05 7.05 0 0 1 22 63.59v-34.5A7.1 7.1 0 0 1 29.09 22h69.82a7.1 7.1 0 0 1 7.09 7.09"/>
+  </g>
+  
+</svg>

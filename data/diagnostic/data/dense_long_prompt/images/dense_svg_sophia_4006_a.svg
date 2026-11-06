@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Main Rocket Body - Large orange angular hull forming the upper structure -->
+  <g id="main-body">
+    <path fill="#e36415" d="M116.1 48.68 93.55 33.9l-9.3-32.65H65.4l-7.75 17.5-25.47 10.72-9.15 29.76L8.75 76.67v12.58h118V71.98z"/>
+  </g>
+  
+  <!-- Left Side Window - Rectangular beige window on left side of cockpit -->
+  <g id="left-side-window">
+    <path fill="#c5c2a1" d="M32.83 63.75H46.5V79.7H32.83z"/>
+  </g>
+  
+  <!-- Right Side Window - Rectangular beige window on right side -->
+  <g id="right-side-window">
+    <path fill="#c5c2a1" d="M81.5 68.45h9.42v14.07H81.5z"/>
+  </g>
+  
+  <!-- Right Upper Cockpit Section - Beige angular cockpit window area with angled bottom -->
+  <g id="right-upper-cockpit">
+    <path fill="#d8d6c1" d="M81.5 52.75h18.75V63l-9.33 7.6-9.42-2.15z"/>
+  </g>
+  
+  <!-- Central Body Panel - Brown/orange rectangular central fuselage section -->
+  <g id="central-panel">
+    <path fill="#b24e10" d="M50.25 56.5h27.5v32.75h-27.5z"/>
+  </g>
+  
+  <!-- Left Lower Wing Section - Beige angular wing element on lower left -->
+  <g id="left-lower-wing">
+    <path fill="#d8d6c1" d="M46.5 89.25h-18V80.5l4.33-5.75h5.92l7.75 4.95z"/>
+  </g>
+  
+  <!-- Left Middle Wing Section - Beige angular section connecting to left window -->
+  <g id="left-middle-wing">
+    <path fill="#d8d6c1" d="M46.5 63.75l-7.75 11h-5.92l-4.33-11.1 2.75-10.9H46.5z"/>
+  </g>
+  
+  <!-- Left Upper Cockpit Window - Beige angular window section on upper left -->
+  <g id="left-upper-cockpit-window">
+    <path fill="#c5c2a1" d="M54 52.75V45.9l-3.12-7.4h-8.65l-4.73 6.73v7.52z"/>
+  </g>
+  
+  <!-- Central Upper Cockpit Section - Beige angular central cockpit area -->
+  <g id="central-upper-cockpit">
+    <path fill="#d8d6c1" d="M74 52.75V45.9l-5.5-7.4h-7.15L54 45.9v6.85"/>
+  </g>
+  
+  <!-- Left Top Cockpit Detail - Beige angular detail on upper left cockpit -->
+  <g id="left-top-cockpit-detail">
+    <path fill="#c5c2a1" d="M95.12 52.75 89 38.5H78.25L74 45.9v6.85z"/>
+  </g>
+  
+  <!-- Right Lower Wing Section - Beige angular wing element on lower right -->
+  <g id="right-lower-wing">
+    <path fill="#d8d6c1" d="M100.25 89.25V82l-9.33-4.25-9.42 4.78v6.72z"/>
+  </g>
+  
+  <!-- Left Yellow Accent Stripe - Vertical yellow accent on left side of fuselage -->
+  <g id="left-yellow-stripe">
+    <path fill="#ffc970" d="M46.5 56.5H54v32.75h-7.5z"/>
+  </g>
+  
+  <!-- Right Yellow Accent Stripe - Vertical yellow accent on right side of fuselage -->
+  <g id="right-yellow-stripe">
+    <path fill="#ffc970" d="M74 56.5h7.5v32.75H74z"/>
+  </g>
+  
+  <!-- Yellow Horizontal Band - Horizontal yellow stripe across middle section -->
+  <g id="yellow-horizontal-band">
+    <path fill="#ffc970" d="M41.5 52.75h45v7.5h-45z"/>
+  </g>
+  
+  <!-- Exhaust/Flame Section - Orange triangular exhaust plume at bottom -->
+  <g id="exhaust-flame">
+    <path fill="#e36415" d="M54 126.75h27.5l-13.75-37.5z"/>
+  </g>
+  
+  <!-- Outlines and Structural Details - Dark strokes defining all shapes and adding detail -->
+  <g id="outlines-and-details">
+    <!-- Main body outline and base platform -->
+    <path fill="#272526" d="M126.75 90.5H1.25c-.7 0-1.25-.55-1.25-1.25V76.67c0-.29.1-.57.28-.79L14.4 58.6l9.1-29.5c.1-.35.38-.65.7-.78L49.77 17.6c.15-.07.33-.1.48-.1h22.5V20H50.5L25.7 30.4l-9 29.2c-.05.15-.13.3-.22.42L2.5 77.12V88h123V72.25l-10.4-22.73-22.25-14.59c-.25-.18-.42-.43-.52-.7L83.3 2.5H58.72L53.5 14.25l-2.28-1.03L56.77.72c.2-.45.65-.74 1.15-.74h26.33c.55 0 1.05.37 1.2.9l9.15 32.2 22.18 14.52c.19.13.34.3.44.53l10.65 23.3c.08.17.13.35.13.52v17.3c0 .7-.55 1.25-1.25 1.25"/>
+    
+    <!-- Yellow horizontal band outline -->
+    <path fill="#272526" d="M86.5 61.5h-45c-.7 0-1.25-.55-1.25-1.25v-7.5c0-.7.55-1.25 1.25-1.25h45c.7 0 1.25.55 1.25 1.25v7.5c0 .7-.55 1.25-1.25 1.25M42.75 59h42.5v-5h-42.5z"/>
+    
+    <!-- Right panel outline -->
+    <path fill="#272526" d="M82.75 89.25h-2.5V61.5h-5v22.75h-2.5v-24c0-.7.55-1.25 1.25-1.25h7.5c.7 0 1.25.55 1.25 1.25z"/>
+    
+    <!-- Left panel outline -->
+    <path fill="#272526" d="M54 90.5h-7.5c-.7 0-1.25-.55-1.25-1.25v-29c0-.7.55-1.25 1.25-1.25H54c.7 0 1.25.55 1.25 1.25v29c0 .7-.55 1.25-1.25 1.25M47.75 88h5V61.5h-5z"/>
+    
+    <!-- Exhaust detail lines -->
+    <path fill="#272526" d="M54.65 106.75H94.6v2.5H54.65z"/>
+    <path fill="#272526" d="M52.12 88.03h2.5v39.95h-2.5z"/>
+    <path fill="#272526" d="M41.5 125.5h45v2.5h-45z"/>
+    <path fill="#272526" d="M45.75 114.75h36.5v2.5h-36.5z"/>
+    <path fill="#272526" d="M49.75 103.75h28.5v2.5h-28.5z"/>
+    <path fill="#272526" d="M54 93h20v2.5H54z"/>
+    
+    <!-- Left lower wing outline -->
+    <path fill="#272526" d="M46.5 90.5h-18c-.7 0-1.25-.55-1.25-1.25V80.5c0-.28.1-.53.25-.75L31.82 74c.23-.32.6-.5 1.01-.5h5.92c.25 0 .47.07.68.2l7.75 4.95c.35.22.57.62.57 1.05v9.55c0 .7-.55 1.25-1.25 1.25M29.75 88h15.5v-7.6L38.38 76h-4.93l-3.7 4.92z"/>
+    
+    <!-- Left middle wing outline -->
+    <path fill="#272526" d="M38.75 76h-5.92c-.53 0-.98-.33-1.18-.8l-4.33-11.1c-.1-.25-.1-.5-.04-.75l2.75-10.9c.15-.55.65-.95 1.2-.95h10.25V54H32.2l-2.4 9.55 3.88 9.95h4.42l7.38-10.48 2.04 1.45-7.74 11c-.23.33-.63.53-1.03.53"/>
+    
+    <!-- Left upper cockpit outline -->
+    <path fill="#272526" d="M55.25 52.75h-2.5v-6.57l-2.73-6.43h-7.14l-4.13 5.87v7.13h-2.5v-7.52c0-.25.08-.5.22-.73l4.73-6.72c.22-.33.63-.53 1.03-.53h8.62c.5 0 .95.3 1.15.78l3.12 7.4c.08.15.11.32.11.47v6.85z"/>
+    
+    <!-- Central upper cockpit outline -->
+    <path fill="#272526" d="M75.25 52.75h-2.5v-6.42l-4.87-6.58h-6l-7.03 7.05-1.77-1.78 7.4-7.4c.22-.22.54-.37.87-.37h7.15c.4 0 .78.17 1 .5l5.5 7.4c.15.22.25.47.25.75z"/>
+    
+    <!-- Left top cockpit detail outline -->
+    <path fill="#272526" d="M95.12 54H86.5v-2.5h6.73l-5.06-11.75h-9.19l-3.86 6.77-2.17-1.22 4.22-7.4c.23-.4.63-.62 1.08-.62H89c.5 0 .95.3 1.15.75l6.13 14.24c.17.38.12.83-.11 1.18-.22.35-.62.55-1.05.55"/>
+    
+    <!-- Side detail elements -->
+    <path fill="#272526" d="M15.5 58H24v2.5h-8.5z"/>
+    <path fill="#272526" d="M108.5 70.75h18.25v2.5H108.5z"/>
+    
+    <!-- Right upper cockpit outline -->
+    <path fill="#272526" d="M90.92 71.85c-.09 0-.17 0-.27-.03l-9.42-2.15.55-2.45 8.84 2.01L99 62.4V54H81.5v-2.5h18.75c.7 0 1.25.55 1.25 1.25V63c0 .37-.17.72-.45.97l-9.32 7.6c-.23.18-.5.28-.8.28"/>
+    <path fill="#272526" d="M89.67 70.6h2.5v7.15h-2.5z"/>
+    
+    <!-- Right lower wing outline -->
+    <path fill="#272526" d="M100.25 90.5H81.5c-.7 0-1.25-.55-1.25-1.25v-6.72c0-.48.28-.91.67-1.13l9.43-4.78c.35-.17.75-.17 1.07-.02l9.33 4.25c.45.2.72.65.73 1.13v7.25c.02.72-.53 1.27-1.23 1.27M82.75 88H99v-5.2l-8.05-3.68-8.2 4.18z"/>
+  </g>
+  
+</svg>

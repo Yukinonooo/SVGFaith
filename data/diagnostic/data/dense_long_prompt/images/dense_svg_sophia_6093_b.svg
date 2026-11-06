@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Left Bow Loop - Curved petal shape forming the left side of the decorative bow -->
+  <g id="bow-left-loop">
+    <path fill="#fb8890" d="M56.96 15.12A23.78 23.78 0 0 1 64 32.08H52a23.78 23.78 0 0 1-16.96-7.04A23.78 23.78 0 0 1 28 8.08h12a23.78 23.78 0 0 1 16.96 7.04"/>
+  </g>
+  
+  <!-- Right Bow Loop - Curved petal shape forming the right side of the decorative bow -->
+  <g id="bow-right-loop">
+    <path fill="#fb8890" d="M88 8.08h12a23.78 23.78 0 0 1-7.04 16.96A23.78 23.78 0 0 1 76 32.08H64a24.04 24.04 0 0 1 24-24"/>
+  </g>
+  
+  <!-- Left Ribbon Band - Yellow horizontal band wrapping around the left side of the box -->
+  <g id="ribbon-band-left">
+    <!-- Rounded rectangle extending from left edge with 8px corner radius -->
+    <path fill="#ffd98c" d="m52 32.08-2.2 24H16a8.02 8.02 0 0 1-8-8v-8a8.02 8.02 0 0 1 8-8z"/>
+  </g>
+  
+  <!-- Right Ribbon Band - Yellow horizontal band wrapping around the right side of the box -->
+  <g id="ribbon-band-right">
+    <!-- Rounded rectangle extending from right edge with 8px corner radius -->
+    <path fill="#ffd98c" d="M120 40.08v8a8.02 8.02 0 0 1-8 8H78.4l-2.4-24h36a8.02 8.02 0 0 1 8 8"/>
+  </g>
+  
+  <!-- Vertical Ribbon Tail - Pink ribbon piece connecting bow to box, with angled bottom -->
+  <g id="ribbon-vertical-tail">
+    <!-- Center ribbon with notched/angled bottom edge at coordinates (64, 76.08) -->
+    <path fill="#fb8890" d="m78.2 56.08 1.8 20-16-12-16 12 1.8-20 2.2-24h24z"/>
+  </g>
+  
+  <!-- Gift Box Body - Main container with light #22c55e fill and rounded corners -->
+  <g id="box-body">
+    <!-- Large rounded rectangle (8px radius) forming the main gift box structure -->
+    <path fill="#22c55e" d="M108 56.08v56a8.02 8.02 0 0 1-8 8H28a8.02 8.02 0 0 1-8-8v-56h29.8l-1.8 20 16-12 16 12-1.8-20z"/>
+  </g>
+  
+</svg>

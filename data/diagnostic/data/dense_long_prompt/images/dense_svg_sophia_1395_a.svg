@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Blue circular background - Main sign background circle -->
+  <g id="background-circle">
+    <path fill="#0071bc" d="M64 120.25c31.07 0 56.25-25.18 56.25-56.25S95.07 7.75 64 7.75 7.75 32.93 7.75 64 32.93 120.25 64 120.25"/>
+  </g>
+  
+  <!-- Right arrow outline (blue) - Creates the negative space for the right arrow -->
+  <g id="right-arrow-outline">
+    <!-- Arrow composed of triangular head (top) and rectangular shaft (bottom) -->
+    <path fill="#0071bc" d="M81.38 26.88l15 24.24h-7.5v50h-15v-50h-7.5z"/>
+  </g>
+  
+  <!-- Left arrow outline (blue) - Creates the negative space for the left arrow -->
+  <g id="left-arrow-outline">
+    <!-- Arrow composed of triangular head (top) and rectangular shaft (bottom) -->
+    <path fill="#0071bc" d="M46.62 26.88l15 24.24h-7.5v50h-15v-50h-7.5z"/>
+  </g>
+  
+  <!-- Right arrow fill (white) - White overlay creating the visible right arrow -->
+  <g id="right-arrow-white">
+    <!-- Triangular arrowhead at top, rectangular shaft extending downward -->
+    <path fill="#fff" d="M73.88 101.12h15v-50h7.5l-15-24.24-15 24.24h7.5z"/>
+  </g>
+  
+  <!-- Left arrow fill (white) - White overlay creating the visible left arrow -->
+  <g id="left-arrow-white">
+    <!-- Triangular arrowhead at top, rectangular shaft extending downward -->
+    <path fill="#fff" d="M39.12 101.12h15v-50h7.5l-15-24.24-15 24.24h7.5z"/>
+  </g>
+  
+</svg>

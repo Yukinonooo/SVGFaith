@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="white"/>
+  <circle cx="192" cy="192" r="150" fill="#f8f9fa" stroke="#dee2e6" stroke-width="6"/>
+  <circle cx="192" cy="192" r="110" fill="none" stroke="#e9ecef" stroke-width="2"/>
+  
+  <g transform="translate(120, 192) scale(1.1, 1)">
+    <rect x="-45" y="-70" width="90" height="140" rx="12" fill="#ffee58"/>
+    <path d="M -45,-40 L 45,-40 M -45,-10 L 45,-10 M -45,20 L 45,20 M -45,50 L 45,50 M -22,-70 L -22,70 M 0,-70 L 0,70 M 22,-70 L 22,70" stroke="#fbc02d" stroke-width="2" vector-effect="non-scaling-stroke"/>
+    <rect x="-45" y="-70" width="90" height="140" rx="12" fill="none" stroke="#f57f17" stroke-width="3" vector-effect="non-scaling-stroke"/>
+  </g>
+
+  <g transform="translate(264, 192) scale(0.25, 1)">
+    <polygon points="0,-70 50,60 -50,60" fill="#ef5350"/>
+    <polygon points="-50,60 50,60 48,65 -48,65" fill="#a5d6a7"/>
+    <polygon points="-48,65 48,65 45,75 -45,75" fill="#2e7d32"/>
+    <ellipse cx="0" cy="-10" rx="3" ry="5" fill="#1a1a1a"/>
+    <ellipse cx="-15" cy="20" rx="3" ry="5" fill="#1a1a1a"/>
+    <ellipse cx="15" cy="20" rx="3" ry="5" fill="#1a1a1a"/>
+    <ellipse cx="-28" cy="45" rx="3" ry="5" fill="#1a1a1a"/>
+    <ellipse cx="28" cy="45" rx="3" ry="5" fill="#1a1a1a"/>
+    <ellipse cx="0" cy="45" rx="3" ry="5" fill="#1a1a1a"/>
+  </g>
+</svg>

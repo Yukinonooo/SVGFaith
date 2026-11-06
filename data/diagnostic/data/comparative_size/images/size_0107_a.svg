@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <rect width="384" height="384" fill="white"/>
+  <rect x="32" y="280" width="320" height="16" fill="#8B4513" rx="2"/>
+  <rect x="48" y="296" width="16" height="40" fill="#5C2E0B" rx="2"/>
+  <rect x="320" y="296" width="16" height="40" fill="#5C2E0B" rx="2"/>
+  <ellipse cx="120" cy="280" rx="16" ry="4" fill="#6E2C00" opacity="0.6"/>
+  <ellipse cx="264" cy="280" rx="56" ry="4" fill="#6E2C00" opacity="0.6"/>
+  <g id="book">
+    <rect x="108" y="120" width="24" height="160" fill="#2980B9" rx="2"/>
+    <rect x="108" y="140" width="24" height="4" fill="#F1C40F"/>
+    <rect x="108" y="240" width="24" height="4" fill="#F1C40F"/>
+    <rect x="108" y="250" width="24" height="4" fill="#F1C40F"/>
+    <polygon points="120,180 114,190 120,200 126,190" fill="#FFFFFF"/>
+  </g>
+  <g id="candle">
+    <circle cx="264" cy="120" r="30" fill="#F9E79F" opacity="0.4"/>
+    <rect x="216" y="150" width="96" height="130" fill="#E74C3C" rx="4"/>
+    <ellipse cx="264" cy="150" rx="48" ry="6" fill="#C0392B"/>
+    <path d="M260,150 L260,170 A4,4 0 0,0 268,170 L268,150 Z" fill="#C0392B"/>
+    <line x1="264" y1="150" x2="264" y2="135" stroke="#2C3E50" stroke-width="3" stroke-linecap="round"/>
+    <path d="M264,105 Q276,125 264,135 Q252,125 264,105 Z" fill="#E67E22"/>
+    <path d="M264,115 Q270,128 264,133 Q258,128 264,115 Z" fill="#F1C40F"/>
+  </g>
+</svg>

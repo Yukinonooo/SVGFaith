@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  
+  <!-- Monitor Back Panel - Main beige rounded rectangle forming the monitor body -->
+  <g id="monitor-back-panel">
+    <path fill="#E1D3CE" d="M108.01 105.25H19.99c-4.24 0-7.68-3.44-7.68-7.68V9.55c0-4.24 3.44-7.68 7.68-7.67h88.02c4.24 0 7.68 3.43 7.68 7.67v88.02c0 4.24-3.44 7.68-7.68 7.68"/>
+  </g>
+  
+  <!-- Monitor Back Panel Shadow - Darker beige creating depth effect on right and bottom edges -->
+  <g id="monitor-back-panel-shadow">
+    <path fill="#CDBFBA" d="M108.01 1.88h-1.64v88.99c0 2.76-2.24 5-5 5H12.31v1.7c0 4.24 3.44 7.68 7.68 7.68h88.02c4.24 0 7.68-3.44 7.68-7.68V9.55c0-4.24-3.44-7.68-7.68-7.67"/>
+  </g>
+  
+  <!-- Monitor Stand Base - Light beige rectangular base supporting the monitor -->
+  <g id="monitor-stand-base">
+    <path fill="#EFE2DD" d="M108.01 105.25H19.99c-4.24 0-7.68 3.43-7.68 7.67v11.96c0 .69.56 1.24 1.25 1.24h100.88c.69 0 1.25-.55 1.25-1.24v-11.96c0-4.24-3.44-7.67-7.68-7.67"/>
+  </g>
+  
+  <!-- Monitor Stand Base Shadow - Darker beige shadow on the stand base -->
+  <g id="monitor-stand-base-shadow">
+    <path fill="#E1D3CE" d="M108.01 105.25h-1.64v9a2.5 2.5 0 0 1-2.5 2.5H12.31v8.13c0 .69.56 1.24 1.25 1.24h100.88c.69 0 1.25-.55 1.25-1.24v-11.96c0-4.24-3.44-7.67-7.68-7.67"/>
+  </g>
+  
+  <!-- Monitor Screen - Gray rounded rectangle representing the display area -->
+  <g id="monitor-screen">
+    <path fill="#9E9797" d="M93.74 88.42H34.26c-2.83 0-5.12-2.29-5.12-5.12V23.82c0-2.83 2.29-5.12 5.12-5.12h59.48c2.83 0 5.12 2.29 5.12 5.12V83.3c0 2.83-2.29 5.12-5.12 5.12"/>
+  </g>
+  
+  <!-- Monitor Screen Shadow - Darker gray creating depth on the screen -->
+  <g id="monitor-screen-shadow">
+    <path fill="#766E6E" d="M93.74 18.7h-2.27v57.15c0 2.82-2.3 5.12-5.12 5.12H29.14v2.33c0 2.83 2.29 5.12 5.12 5.12h59.48c2.83 0 5.12-2.29 5.12-5.12V23.82c0-2.83-2.29-5.12-5.12-5.12"/>
+  </g>
+  
+  <!-- Side Buttons/Ports - Small rectangular elements on the right side of monitor -->
+  <g id="side-buttons">
+    <!-- Upper button/port group -->
+    <path fill="#766E6E" d="M115.69 61.92h-7.14c-.71 0-1.28-.57-1.28-1.27v-31.4c0-.71.57-1.28 1.28-1.28h7.14z"/>
+    <!-- Lower button/port group -->
+    <path fill="#766E6E" d="M115.69 84.16h-7.14c-.71 0-1.28-.57-1.28-1.28v-5.85c0-.71.57-1.28 1.28-1.28h7.14z"/>
+  </g>
+  
+  <!-- Cat Lower Body - Orange/peach colored lower torso forming the bottom part of the cat -->
+  <g id="cat-lower-body">
+    <path fill="#F6A96C" d="M75.07 69.02c-2.2 1.14-4.71 1.79-7.36 1.79h-7.42c-2.65 0-5.16-.65-7.36-1.79-3.49 3.07-5.7 7.57-5.7 12.55v6.85h33.54v-6.85c0-4.98-2.21-9.48-5.7-12.55"/>
+  </g>
+  
+  <!-- Cat Lower Body Shadow - Darker orange creating depth on the lower body -->
+  <g id="cat-lower-body-shadow">
+    <path fill="#EA9B58" d="M75.07 69.02c-.74.38-1.51.71-2.32.98.35 1.33.53 2.72.53 4.16v4.34a2.5 2.5 0 0 1-2.5 2.5H47.24c0 .19-.01.38-.01.57v6.85h33.54v-6.85c0-4.98-2.21-9.48-5.7-12.55"/>
+  </g>
+  
+  <!-- Cat Left Ear - Pink triangular ear on the left side -->
+  <g id="cat-left-ear">
+    <path fill="#FDB4BA" d="M81.78 46.92V34.4c0-2.47-2.98-3.7-4.72-1.96l-6.47 6.47c4.81.87 8.88 3.89 11.19 8.01"/>
+  </g>
+  
+  <!-- Cat Left Ear Shadow - Darker pink shadow on the left ear -->
+  <g id="cat-left-ear-shadow">
+    <path fill="#FE99A0" d="m77.06 32.44-.34.34v8.65a16.3 16.3 0 0 1 5.06 5.49V34.4c0-2.47-2.98-3.7-4.72-1.96"/>
+  </g>
+  
+  <!-- Cat Right Ear - Pink triangular ear on the right side -->
+  <g id="cat-right-ear">
+    <path fill="#FDB4BA" d="m57.25 38.95-6.5-6.51c-1.75-1.74-4.72-.51-4.72 1.96v12.88c2.24-4.26 6.34-7.4 11.22-8.33"/>
+  </g>
+  
+  <!-- Cat Head/Body - Peach colored rounded shape forming the main body of the cat -->
+  <g id="cat-head-body">
+    <path fill="#FED2A4" d="M67.71 71.07h-7.42c-8.96 0-16.29-7.34-16.29-16.3s7.33-16.29 16.29-16.29h7.42c8.96 0 16.29 7.33 16.29 16.29s-7.33 16.3-16.29 16.3"/>
+  </g>
+  
+  <!-- Cat Head/Body Shadow - Darker peach creating depth and dimension on the body -->
+  <g id="cat-head-body-shadow">
+    <path fill="#FFBD86" d="M76.72 41.22V51.6c0 6.77-5.54 12.31-12.32 12.31H46.83c2.94 4.31 7.88 7.15 13.46 7.15h7.42c8.96 0 16.29-7.33 16.29-16.29 0-5.63-2.9-10.62-7.28-13.55"/>
+  </g>
+
+</svg>
