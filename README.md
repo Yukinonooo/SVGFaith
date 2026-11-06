@@ -2,7 +2,7 @@
 
 SVGFaith is a two-layer meta-evaluation of faithfulness metrics for text-to-SVG generation.
 
-[Paper](https://arxiv.org/abs/2611.06048) · [Decomposer](https://huggingface.co/Yukinonooo/SVGFaith-Decomposer)
+[Paper](https://arxiv.org/abs/2611.06048) · [Benchmark](https://huggingface.co/datasets/Yukinonooo/SVGFaith) · [Decomposer](https://huggingface.co/Yukinonooo/SVGFaith-Decomposer)
 
 Text-to-SVG systems are usually scored by applying a raster metric to a rendered SVG. SVGFaith tests whether that score actually prefers the more faithful candidate. SVGFaith-Diagnostic contains 1,842 controlled contrastive pairs across eight capability axes, split into 921 image-side and 921 text-side pairs. SVGFaith-Arena contains 1,327 human comparisons of outputs from six generators.
 
@@ -11,11 +11,11 @@ SVGFaith-Score decomposes a prompt into a dependency graph of atomic visual requ
 ## Repository layout
 
 ```text
-data/diagnostic/     1,842 contrastive pairs, SVG and PNG
-data/arena/          1,327 human pairs and their renderings
-scores/              released SVGFaith-Score outputs
-svgfaith/            aggregation and the paper's accuracy calculation
+scores/     released SVGFaith-Score outputs for the headline numbers
+svgfaith/   aggregation and the paper's accuracy calculation
 ```
+
+The benchmark itself is the Hugging Face dataset [`Yukinonooo/SVGFaith`](https://huggingface.co/datasets/Yukinonooo/SVGFaith): `diagnostic/` has the 1,842 contrastive pairs, and `arena/` has the 1,327 human pairs and their renderings.
 
 ## Reproduce the headline numbers
 
@@ -43,9 +43,13 @@ at the first answer token. Unique-ancestor aggregation with alpha 0.5 is impleme
 
 ## Data
 
-Diagnostic construction, the eight axes, and the human review funnel are in Section 2 and Appendix B of the paper. `data/diagnostic/manifest.jsonl` is the index: 1,799 pairs kept by all three annotators and 43 pairs added by expert review. Annotator identities and raw model traces are not included.
+Diagnostic construction, the eight axes, and the human review funnel are in Section 2 and Appendix B of the paper. `diagnostic/manifest.jsonl` in the dataset is the index: 1,799 pairs kept by all three annotators and 43 pairs added by expert review. Annotator identities and raw model traces are not included.
 
-Arena labels follow a two-of-three majority. Pairs that remained ties, and 25 pairs removed in the published label review, are not in the 1,327-pair evaluation set. See `data/arena/README.md`.
+Arena labels follow a two-of-three majority. Pairs that remained ties, and 25 pairs removed in the published label review, are not in the 1,327-pair evaluation set. See `arena/README.md` in the dataset.
+
+```bash
+huggingface-cli download Yukinonooo/SVGFaith --repo-type dataset --local-dir svgfaith-data
+```
 
 ## License
 
@@ -67,4 +71,4 @@ Code is Apache 2.0. Benchmark files and released scores are CC BY 4.0. See `LICE
 
 ## 中文
 
-这是论文 [arXiv:2611.06048](https://arxiv.org/abs/2611.06048) 的代码、评测数据和拆题模型发布。Diagnostic 1,842 对，Arena 1,327 对。拆题器在 [Hugging Face](https://huggingface.co/Yukinonooo/SVGFaith-Decomposer)。上面的命令会复现论文 Table 2 里 SVGFaith-Score 的三个主数字。
+这是论文 [arXiv:2611.06048](https://arxiv.org/abs/2611.06048) 的代码发布。Benchmark 在 [Hugging Face 数据集](https://huggingface.co/datasets/Yukinonooo/SVGFaith)：Diagnostic 1,842 对，Arena 1,327 对。拆题器在 [Hugging Face](https://huggingface.co/Yukinonooo/SVGFaith-Decomposer)。上面的命令会复现论文 Table 2 里 SVGFaith-Score 的三个主数字。
