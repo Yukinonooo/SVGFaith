@@ -1,0 +1,405 @@
+{
+  "tuples": [
+    {
+      "id": 1,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["left pylon"],
+      "question": "Is there a left pylon?",
+      "parents": [],
+      "evidence": ["left pylon"],
+      "polarity": "present"
+    },
+    {
+      "id": 2,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["right pylon"],
+      "question": "Is there a right pylon?",
+      "parents": [],
+      "evidence": ["right pylon"],
+      "polarity": "present"
+    },
+    {
+      "id": 3,
+      "type": "entity",
+      "subtype": "part",
+      "args": ["dial"],
+      "question": "Is there a dial on the left pylon?",
+      "parents": [1],
+      "evidence": ["left pylon is teal and bears a circular dial"],
+      "polarity": "present"
+    },
+    {
+      "id": 4,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["cable"],
+      "question": "Is there a cable?",
+      "parents": [],
+      "evidence": ["A cable"],
+      "polarity": "present"
+    },
+    {
+      "id": 5,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["jar"],
+      "question": "Is there a jar?",
+      "parents": [],
+      "evidence": ["transparent jar"],
+      "polarity": "present"
+    },
+    {
+      "id": 6,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["marble"],
+      "question": "Is there a marble?",
+      "parents": [],
+      "evidence": ["glass marble"],
+      "polarity": "present"
+    },
+    {
+      "id": 7,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["moth"],
+      "question": "Is there a moth?",
+      "parents": [],
+      "evidence": ["A moth"],
+      "polarity": "present"
+    },
+    {
+      "id": 8,
+      "type": "entity",
+      "subtype": "part",
+      "args": ["moth wings"],
+      "question": "Does the moth have wings?",
+      "parents": [7],
+      "evidence": ["moth's wings"],
+      "polarity": "present"
+    },
+    {
+      "id": 9,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["dots"],
+      "question": "Are there dots?",
+      "parents": [],
+      "evidence": ["white dots"],
+      "polarity": "present"
+    },
+    {
+      "id": 10,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["plate text"],
+      "question": "Is there visible text?",
+      "parents": [],
+      "evidence": ["visible word \"NORTH\""],
+      "polarity": "present"
+    },
+    {
+      "id": 11,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["box"],
+      "question": "Is there a box?",
+      "parents": [],
+      "evidence": ["open box"],
+      "polarity": "present"
+    },
+    {
+      "id": 12,
+      "type": "entity",
+      "subtype": "object",
+      "args": ["key"],
+      "question": "Is there a key?",
+      "parents": [],
+      "evidence": ["green key"],
+      "polarity": "present"
+    },
+    {
+      "id": 13,
+      "type": "attribute",
+      "subtype": "color",
+      "args": ["left pylon", "teal"],
+      "question": "Is the left pylon teal?",
+      "parents": [1],
+      "evidence": ["left pylon is teal"],
+      "polarity": "present"
+    },
+    {
+      "id": 14,
+      "type": "attribute",
+      "subtype": "color",
+      "args": ["right pylon", "amber"],
+      "question": "Is the right pylon amber?",
+      "parents": [2],
+      "evidence": ["right pylon is amber"],
+      "polarity": "present"
+    },
+    {
+      "id": 15,
+      "type": "attribute",
+      "subtype": "shape",
+      "args": ["dial", "circular"],
+      "question": "Is the dial circular?",
+      "parents": [3],
+      "evidence": ["circular dial"],
+      "polarity": "present"
+    },
+    {
+      "id": 16,
+      "type": "relation",
+      "subtype": "size",
+      "args": ["left pylon", "taller than", "right pylon"],
+      "question": "Is the left pylon taller than the right pylon?",
+      "parents": [1, 2],
+      "evidence": ["left pylon is taller than the right pylon"],
+      "polarity": "present"
+    },
+    {
+      "id": 17,
+      "type": "relation",
+      "subtype": "spatial",
+      "args": ["jar", "near", "right pylon"],
+      "question": "Is the jar near the right pylon?",
+      "parents": [5, 2],
+      "evidence": ["jar stands near the right pylon"],
+      "polarity": "present"
+    },
+    {
+      "id": 18,
+      "type": "relation",
+      "subtype": "other",
+      "args": ["left pylon", "connected by the cable to", "right pylon"],
+      "question": "Are the left pylon and the right pylon connected by the cable?",
+      "parents": [1, 4, 2],
+      "evidence": ["cable connects the left pylon to the right pylon"],
+      "polarity": "present"
+    },
+    {
+      "id": 19,
+      "type": "attribute",
+      "subtype": "appearance",
+      "args": ["jar", "transparent"],
+      "question": "Is the jar transparent?",
+      "parents": [5],
+      "evidence": ["transparent jar"],
+      "polarity": "present"
+    },
+    {
+      "id": 20,
+      "type": "attribute",
+      "subtype": "appearance",
+      "args": ["jar", "frosted surface"],
+      "question": "Does the jar have a frosted surface?",
+      "parents": [5],
+      "evidence": ["jar with a frosted surface"],
+      "polarity": "present"
+    },
+    {
+      "id": 21,
+      "type": "attribute",
+      "subtype": "material",
+      "args": ["marble", "glass"],
+      "question": "Is the marble made of glass?",
+      "parents": [6],
+      "evidence": ["glass marble"],
+      "polarity": "present"
+    },
+    {
+      "id": 22,
+      "type": "relation",
+      "subtype": "spatial",
+      "args": ["marble", "inside", "jar"],
+      "question": "Is the marble inside the jar?",
+      "parents": [6, 5],
+      "evidence": ["transparent jar with a frosted surface, containing a glass marble"],
+      "polarity": "present"
+    },
+    {
+      "id": 23,
+      "type": "relation",
+      "subtype": "action",
+      "args": ["moth", "appears to be resting on the rim of", "jar"],
+      "question": "Does the moth appear to be resting on the jar rim?",
+      "parents": [7, 5],
+      "evidence": ["moth appears to be resting on the jar rim"],
+      "polarity": "present"
+    },
+    {
+      "id": 24,
+      "type": "attribute",
+      "subtype": "appearance",
+      "args": ["moth wings", "resembling either leaves or pointed kites"],
+      "question": "Do the moth's wings resemble either leaves or pointed kites?",
+      "parents": [8],
+      "evidence": ["moth's wings resemble either leaves or pointed kites"],
+      "polarity": "present"
+    },
+    {
+      "id": 25,
+      "type": "attribute",
+      "subtype": "count",
+      "args": ["dots", "three"],
+      "question": "Are there exactly three white dots?",
+      "parents": [9],
+      "evidence": ["Exactly three white dots"],
+      "polarity": "present"
+    },
+    {
+      "id": 26,
+      "type": "attribute",
+      "subtype": "color",
+      "args": ["dots", "white"],
+      "question": "Are the dots white?",
+      "parents": [9],
+      "evidence": ["white dots"],
+      "polarity": "present"
+    },
+    {
+      "id": 27,
+      "type": "attribute",
+      "subtype": "spatial",
+      "args": ["dots", "in a row"],
+      "question": "Do the dots form a row?",
+      "parents": [9],
+      "evidence": ["three white dots form a row"],
+      "polarity": "present"
+    },
+    {
+      "id": 28,
+      "type": "relation",
+      "subtype": "spatial",
+      "args": ["dots", "below", "jar"],
+      "question": "Are the dots below the jar?",
+      "parents": [9, 5],
+      "evidence": ["white dots form a row below the jar"],
+      "polarity": "present"
+    },
+    {
+      "id": 29,
+      "type": "attribute",
+      "subtype": "text",
+      "args": ["plate text", "NORTH"],
+      "question": "Does the visible text read NORTH?",
+      "parents": [10],
+      "evidence": ["visible word \"NORTH\""],
+      "polarity": "present"
+    },
+    {
+      "id": 30,
+      "type": "relation",
+      "subtype": "spatial",
+      "args": ["plate text", "above", "left pylon"],
+      "question": "Is the NORTH text above the left pylon?",
+      "parents": [10, 1],
+      "evidence": ["visible word \"NORTH\" sits above the left pylon"],
+      "polarity": "present"
+    },
+    {
+      "id": 31,
+      "type": "attribute",
+      "subtype": "state",
+      "args": ["box", "open"],
+      "question": "Is the box open?",
+      "parents": [11],
+      "evidence": ["open box"],
+      "polarity": "present"
+    },
+    {
+      "id": 32,
+      "type": "attribute",
+      "subtype": "color",
+      "args": ["key", "green"],
+      "question": "Is the key green?",
+      "parents": [12],
+      "evidence": ["green key"],
+      "polarity": "present"
+    },
+    {
+      "id": 33,
+      "type": "relation",
+      "subtype": "spatial",
+      "args": ["key", "inside", "box"],
+      "question": "Is the key inside the box?",
+      "parents": [12, 11],
+      "evidence": ["open box contains a green key"],
+      "polarity": "present"
+    },
+    {
+      "id": 34,
+      "type": "global",
+      "subtype": "absence",
+      "args": ["labels other than NORTH"],
+      "question": "Are labels other than NORTH visible?",
+      "parents": [10],
+      "evidence": ["No labels are visible except the word \"NORTH\""],
+      "polarity": "absent"
+    },
+    {
+      "id": 35,
+      "type": "global",
+      "subtype": "style",
+      "args": ["screen-printed"],
+      "question": "Does the plate use a screen-printed style?",
+      "parents": [],
+      "evidence": ["screen-printed plate"],
+      "polarity": "present"
+    },
+    {
+      "id": 36,
+      "type": "global",
+      "subtype": "palette",
+      "args": ["limited teal, amber, white, and green palette"],
+      "question": "Does the plate use a limited teal, amber, white, and green palette?",
+      "parents": [],
+      "evidence": ["limited teal, amber, white, and green palette"],
+      "polarity": "present"
+    },
+    {
+      "id": 37,
+      "type": "global",
+      "subtype": "rendering",
+      "args": ["flat fills"],
+      "question": "Does the plate use flat fills?",
+      "parents": [],
+      "evidence": ["flat fills"],
+      "polarity": "present"
+    },
+    {
+      "id": 38,
+      "type": "global",
+      "subtype": "rendering",
+      "args": ["thin outlines"],
+      "question": "Does the plate use thin outlines?",
+      "parents": [],
+      "evidence": ["thin outlines"],
+      "polarity": "present"
+    },
+    {
+      "id": 39,
+      "type": "global",
+      "subtype": "composition",
+      "args": ["centered"],
+      "question": "Is the plate composition centered?",
+      "parents": [],
+      "evidence": ["centered composition"],
+      "polarity": "present"
+    },
+    {
+      "id": 40,
+      "type": "global",
+      "subtype": "background",
+      "args": ["pale gray background"],
+      "question": "Does the plate have a pale gray background?",
+      "parents": [],
+      "evidence": ["pale gray background"],
+      "polarity": "present"
+    }
+  ],
+  "overflow": false
+}

@@ -51,9 +51,19 @@ At τ=0.01 on Arena, the released scores are 1,168 wins, 37 ties, and 122 losses
 
 ![SVGFaith-Score pipeline](assets/pipeline.png)
 
-1. [`Yukinonooo/SVGFaith-Decomposer`](https://huggingface.co/Yukinonooo/SVGFaith-Decomposer) reads only the prompt and emits a directed acyclic graph of atomic visual requirements. It is a Qwen3.5-9B model trained with teacher distillation, rejection-sampling SFT, and GRPO. Its system prompt is [`svgfaith/prompts/decomposer_system.txt`](svgfaith/prompts/decomposer_system.txt).
-2. The unmodified [`Qwen/Qwen3.5-9B`](https://huggingface.co/Qwen/Qwen3.5-9B) answers each requirement on one rendered image with thinking disabled. Questions are phrased so that Yes means the requirement is satisfied. We read the first answer token and renormalise over Yes and No: `P(Yes) / (P(Yes) + P(No))`.
-3. Unique-ancestor gating in [`svgfaith/aggregate.py`](svgfaith/aggregate.py) discounts a requirement when its prerequisites score low, with α = 0.5. Each distinct ancestor is counted once.
+Score one prompt against one already-rendered image:
+
+```bash
+python -m svgfaith.infer --prompt "A red apple on a white table." --image image.png
+```
+
+The command loads [`Yukinonooo/SVGFaith-Decomposer`](https://huggingface.co/Yukinonooo/SVGFaith-Decomposer), generates the questions, unloads it, then loads unmodified [`Qwen/Qwen3.5-9B`](https://huggingface.co/Qwen/Qwen3.5-9B). The released run used the same order. `evaluate.py` does not do this; it only reports accuracy from score files that have already been computed.
+
+The inference settings are the ones used for the released SVGFaith-Score:
+
+1. The decomposer sees only the prompt. The chat is the V2.1 system prompt, one synthetic demonstration, and the target prompt. Thinking stays enabled. Decoding is greedy (`temperature=0`, `seed=0`) with up to 40,000 new tokens. Questions are recovered by `greedy_question_salvage_v1` in [`svgfaith/salvage.py`](svgfaith/salvage.py): keep every nonempty question, drop exact duplicates, and remap parent ids. The frozen prompt, demonstration, user template, and JSON schema are in [`svgfaith/prompts/`](svgfaith/prompts/).
+2. Each question is asked separately. The image is composited onto white and resized to 448×448 with Lanczos. Thinking is disabled, so the first generated token is the verdict, and generation is restricted to the single tokens `Yes` and `No`. The polarity-aware prompt is [`svgfaith/prompts/vqa_system.txt`](svgfaith/prompts/vqa_system.txt). Yes means the requirement is satisfied. The requirement probability is `P(Yes) / (P(Yes) + P(No))`.
+3. [`svgfaith/aggregate.py`](svgfaith/aggregate.py) applies unique-ancestor gating with α = 0.5. Salvage ids are 1-based; `infer.py` converts them to list indices before aggregation. Each distinct ancestor is counted once.
 
 ## The eight diagnostic axes
 

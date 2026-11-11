@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tuples", "overflow"],
+  "properties": {
+    "tuples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "subtype",
+          "args",
+          "question",
+          "parents",
+          "evidence",
+          "polarity"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["entity", "attribute", "relation", "global"]
+          },
+          "subtype": {
+            "type": "string",
+            "enum": [
+              "object",
+              "part",
+              "count",
+              "color",
+              "material",
+              "shape",
+              "size",
+              "texture",
+              "appearance",
+              "pose",
+              "action",
+              "spatial",
+              "state",
+              "text",
+              "symbol",
+              "style",
+              "palette",
+              "lighting",
+              "background",
+              "composition",
+              "rendering",
+              "absence",
+              "other"
+            ]
+          },
+          "args": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "question": {"type": "string"},
+          "parents": {
+            "type": "array",
+            "items": {"type": "integer"}
+          },
+          "evidence": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "polarity": {
+            "type": "string",
+            "enum": ["present", "absent"]
+          }
+        }
+      }
+    },
+    "overflow": {"type": "boolean"}
+  }
+}
